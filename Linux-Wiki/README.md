@@ -1,2 +1,3 @@
 # Linux-Wiki
-Repositório sobre meus conhecimentos em Linux, para me ajudar no meu processo.
+No intuito de consolidar o que estou aprendendo durante o treinamento de linux
+admin.
