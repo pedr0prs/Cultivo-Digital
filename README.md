@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório Cultivo-Digital! Este é um espaço dedicado ao aprendizado contínuo, onde um grupo de entusiastas, orientados por um sênior experiente, compartilhamos conhecimentos e experiências sobre Linux, fundamentos de suporte em tecnologia da informação.
 
-![](./img/seedgrowti.jpg)
+![seedgrow](./img/seedgrowti.jpg)
 
 ### Por que compartilhar nosso aprendizado diário?
 
