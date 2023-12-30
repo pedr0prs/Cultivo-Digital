@@ -1,3 +1,4 @@
+
 # 🌱 Cultivo-Digital
 
 Bem-vindo ao repositório Cultivo-Digital! Este é um espaço dedicado ao aprendizado contínuo, onde profissionais TI, orientados por um sênior experiente em desenvolvimento de software, compartilhamos conhecimentos e experiências sobre fundamentos de suporte em TI e GNU/Linux.
@@ -17,6 +18,7 @@ Publicar regularmente o que estamos estudando traz inúmeros benefícios. Além 
 
 - **Cria um Registro Público:** Construímos um repositório de conhecimento acessível a todos, incluindo a nós mesmos no futuro.
 
+
 ### [🔗 Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 Estamos utilizando o *Git Feature Branch Workflow* para gerenciar nosso conteúdo de forma eficiente. Este método oferece várias vantagens, tornando nossa colaboração mais organizada e eficaz:
@@ -28,6 +30,7 @@ Estamos utilizando o *Git Feature Branch Workflow* para gerenciar nosso conteúd
 - **Histórico Claro e Rastreável:** O workflow ajuda a manter um histórico claro de alterações, facilitando o rastreamento do progresso e a identificação de problemas.
 
 - **Colaboração Facilitada:** Com branches dedicadas a cada funcionalidade, facilitamos a colaboração entre os membros da equipe, minimizando conflitos.
+
 
 ---
 Sinta-se à vontade para explorar, contribuir e aprender conosco. Juntos, estamos cultivando conhecimento digital de forma colaborativa! 🌱✨
