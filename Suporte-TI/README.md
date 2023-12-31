@@ -16,6 +16,7 @@ Estou atualmente participando do curso [Suporte em TI do Google](https://www.cou
 
 5. **Segurança de TI: Defesa Contra as Artes Obscuras do Mundo Digital**
    - Estratégias de segurança para proteger contra ameaças digitais.
+
 ---
 Este programa tem como objetivo preparar profissionais para o mercado de suporte em TI, abordando temas como fundamentos de suporte técnico, redes de computadores, sistemas operacionais, administração de sistemas e serviços de infraestrutura de TI, além de segurança em TI.
 
