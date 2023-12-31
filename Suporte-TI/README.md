@@ -16,10 +16,18 @@ Estou atualmente participando do curso [Suporte em TI do Google](https://www.cou
 
 5. **Segurança de TI: Defesa Contra as Artes Obscuras do Mundo Digital**
    - Estratégias de segurança para proteger contra ameaças digitais.
+---
+Este programa tem como objetivo preparar profissionais para o mercado de suporte em TI, abordando temas como fundamentos de suporte técnico, redes de computadores, sistemas operacionais, administração de sistemas e serviços de infraestrutura de TI, além de segurança em TI.
 
 ## Meu Compromisso
 
 Este repositório servirá como um registro público do meu aprendizado. Aqui, você encontrará resumos, anotações e, ocasionalmente, soluções para problemas práticos que eu encontrar ao longo do caminho.
+
+### Metodologia de Estudo
+
+Flexibilidade: Estude no seu próprio ritmo, dedicando 8 a 10 horas semanais, com a previsão de obter o certificado em cerca de oito meses.
+Conteúdo Prático: Destaque para sessões práticas, incluindo laboratórios e exercícios interativos, proporcionando uma experiência próxima do ambiente real de suporte técnico.
+Conteúdo Desenvolvido pelo Google: Materiais criados por profissionais do Google, abrangendo desde fundamentos até aspectos avançados em suporte de TI.
 
 ## Agradecimentos
 
