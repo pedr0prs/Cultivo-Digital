@@ -1,24 +1,24 @@
 # 👨🏽‍💻 Suporte TI
 
-Estou atualmente participando do curso [Suporte em TI do Google](https://www.coursera.org/programs/grow-with-google-mlf5u/professional-certificates/suporte-em-ti-do-google), uma incrível oportunidade proporcionada pela bolsa de estudos da Google e CIEE. Este programa é composto por seis cursos, cada um abordando aspectos fundamentais do suporte técnico em TI. Os cursos são:
+Atualmente estou dedicado a participar do curso [Suporte em TI do Google](https://www.coursera.org/programs/grow-with-google-mlf5u/professional-certificates/suporte-em-ti-do-google), uma incrível oportunidade proporcionada pela bolsa de estudos da Google e CIEE. Este programa é composto por seis cursos, cada um abordando aspectos fundamentais do suporte técnico em TI. Os cursos são:
 
 1. **Fundamentos do Suporte Técnico**
-   - Introdução ao suporte técnico e suas práticas essenciais.
+   - _Introdução ao suporte técnico e suas práticas essenciais._
 
 2. **Estrutura e Funcionamento das Redes de Computadores**
-   - Exploração da arquitetura e funcionamento de redes de computadores.
+   - _Exploração da arquitetura e funcionamento de redes de computadores._
 
 3. **Sistemas Operacionais e Você: Tornando-se um Usuário Avançado**
-   - Aprofundamento nos sistemas operacionais e práticas avançadas de usuário.
+   - _Aprofundamento nos sistemas operacionais e práticas avançadas de usuário._
 
 4. **Administração de Sistemas e Serviços de Infraestrutura de TI**
-   - Aspectos cruciais da administração de sistemas e serviços de infraestrutura.
+   - _Aspectos cruciais da administração de sistemas e serviços de infraestrutura._
 
 5. **Segurança de TI: Defesa Contra as Artes Obscuras do Mundo Digital**
-   - Estratégias de segurança para proteger contra ameaças digitais.
+   - _Estratégias de segurança para proteger contra ameaças digitais._
 
 ---
-Este programa tem como objetivo preparar profissionais para o mercado de suporte em TI, abordando temas como fundamentos de suporte técnico, redes de computadores, sistemas operacionais, administração de sistemas e serviços de infraestrutura de TI, além de segurança em TI.
+O objetivo desse programa é preparar profissionais para o mercado de suporte em TI, abordando temas como fundamentos de suporte técnico, redes de computadores, sistemas operacionais, administração de sistemas e serviços de infraestrutura de TI, além de segurança em TI.
 
 ## Meu Compromisso
 
@@ -26,9 +26,9 @@ Este repositório servirá como um registro público do meu aprendizado. Aqui, v
 
 ### Metodologia de Estudo
 
-Flexibilidade: Estude no seu próprio ritmo, dedicando 8 a 10 horas semanais, com a previsão de obter o certificado em cerca de oito meses.
-Conteúdo Prático: Destaque para sessões práticas, incluindo laboratórios e exercícios interativos, proporcionando uma experiência próxima do ambiente real de suporte técnico.
-Conteúdo Desenvolvido pelo Google: Materiais criados por profissionais do Google, abrangendo desde fundamentos até aspectos avançados em suporte de TI.
+**Flexibilidade:** Estudo no meu próprio ritmo, dedicando 8 a 10 horas semanais, com a previsão de obter o certificado em cerca de seis meses.
+**Conteúdo Prático:** Destaque para sessões práticas, incluindo laboratórios e exercícios interativos, proporcionando uma experiência próxima do ambiente real de suporte técnico.
+**Conteúdo Desenvolvido pelo Google:** Materiais criados por profissionais do Google, abrangendo desde fundamentos até aspectos avançados em suporte de TI.
 
 ## Agradecimentos
 
