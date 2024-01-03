@@ -23,7 +23,7 @@ Este repositório servirá como um registro público do meu aprendizado. Aqui, v
 
 ## Agradecimentos
 
-Agradeço à Google e ao CIEE por essa incrível oportunidade de aprendizado. A parceria entre essas duas instituições proporciona conteúdo de qualidade de forma acessível, contribuindo para o desenvolvimento de profissionais de TI em todo o mundo.
+Agradeço à Google e ao CIEE por essa incrível oportunidade de aprendizado. A parceria entre essas duas instituições, proporciona conteúdos de qualidade de forma acessível, contribuindo para o desenvolvimento de profissionais de TI em todo o mundo.
 
 Sinta-se à vontade para explorar os materiais compartilhados aqui, se possível, contribuir com suas próprias ideias e conhecimentos. Podemos cultivar um ambiente de aprendizagem digital enriquecedor.
 
