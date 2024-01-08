@@ -1,4 +1,4 @@
-
+aa
 # 🌱 Cultivo-Digital
 
 Bem-vindo ao repositório Cultivo-Digital! Este é um espaço dedicado ao aprendizado contínuo, onde profissionais TI, orientados por um sênior experiente em desenvolvimento de software, compartilhamos conhecimentos e experiências sobre fundamentos de suporte em TI e GNU/Linux.
