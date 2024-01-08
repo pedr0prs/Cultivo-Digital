@@ -20,6 +20,7 @@ Atualmente estou dedicado a participar do curso [Suporte em TI do Google](https:
 ---
 O objetivo desse programa é preparar profissionais para o mercado de suporte em TI, abordando temas como fundamentos de suporte técnico, redes de computadores, sistemas operacionais, administração de sistemas e serviços de infraestrutura de TI, além de segurança em TI.
 
+
 ## Meu Compromisso
 
 Este repositório servirá como um registro público do meu aprendizado. Aqui, você encontrará resumos, anotações e, ocasionalmente, soluções para problemas práticos que eu encontrar ao longo do caminho.
@@ -35,5 +36,6 @@ Este repositório servirá como um registro público do meu aprendizado. Aqui, v
 Agradeço à Google e ao CIEE por essa incrível oportunidade de aprendizado. A parceria entre essas duas instituições proporciona conteúdo de qualidade de forma acessível, contribuindo para o desenvolvimento de profissionais de TI em todo o mundo.
 
 Sinta-se à vontade para explorar os materiais compartilhados aqui e, se possível, contribuir com suas próprias ideias e conhecimentos. Juntos, podemos cultivar um ambiente de aprendizado digital enriquecedor.
+
 
 _Lifelong learning_ 🌳
