@@ -72,3 +72,4 @@ Existem várias coisas que você pode fazer para proteger seu computador e suas 
 - Mantenha seu software atualizado.
 - Instale um software antivírus e antimalware.
 - Seja cauteloso ao clicar em links ou abrir anexos de e-mail.
+

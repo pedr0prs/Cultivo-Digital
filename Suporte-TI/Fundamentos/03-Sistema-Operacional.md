@@ -88,3 +88,4 @@ As máquinas virtuais são cópias de máquinas reais que podem ser executadas e
 - As máquinas virtuais usam recursos físicos, como memória, processamento e armazenamento. No entanto, elas oferecem o benefício adicional de rodar vários sistemas operacionais de uma só vez.
 
 As máquinas virtuais são uma ferramenta poderosa que pode ser usada para uma variedade de propósitos. Se você está procurando uma maneira de executar vários sistemas operacionais em um único computador, as máquinas virtuais são uma ótima opção.
+

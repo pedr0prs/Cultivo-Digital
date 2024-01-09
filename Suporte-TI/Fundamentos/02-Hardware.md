@@ -60,18 +60,3 @@ Uma trabalho de TI que se faz com frequência é a restauração/formatação do
 
 Para acessar esses programas e fazer a restauração/formatação, você precisará usar a BIOS para informar ao computador que ele deve ser inicializado a partir desse dispositivo externo.
 
-## Ponto Reflexão
-
-O cenário da tecnologia da informação está se tornando mais diverso, com pessoas de todos os tipos, gêneros, etnias e origens educacionais trabalhando juntas. Essa diversidade é benéfica, pois traz uma variedade de perspectivas e experiências.
-
-Além disso, a tecnologia está sempre em mudança, portanto, é importante ter uma atitude de aprendizado contínuo. As habilidades tecnológicas são importantes, mas as habilidades interpessoais, como empatia e compreensão dos problemas das pessoas, são essenciais para o sucesso na TI.
-
-### 🔗 Saiba mais
-
-- [Computer Hardware](https://www.geeksforgeeks.org/computer-hardware/)
-
-- [Components of Computer](https://www.indeed.com/career-advice/career-development/what-are-basic-components-of-computer-hardware)
-
-- [Memory](https://medium.com/dvt-engineering/the-basics-of-application-memory-management-19f060c2d0f)
-
-- [Ganhe uns trocados formatando computadores (Windows)](https://www.adrenaline.com.br/artigos/como-formatar-o-pc-com-windows/)
