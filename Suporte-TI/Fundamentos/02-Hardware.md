@@ -59,4 +59,3 @@ As configurações da BIOS controlam quais dispositivos devem ser inicializados 
 Uma trabalho de TI que se faz com frequência é a restauração/formatação do computador. O processo de restauração/formatação resulta em salvar os dados do cliente, limpar e reinstalar o sistema operacional. Este procedimento é normalmente executado usando um programa que fica armazenado em algum dispositivo externo, como um pen drive, CD-ROM ou até um servidor acessível pela rede.
 
 Para acessar esses programas e fazer a restauração/formatação, você precisará usar a BIOS para informar ao computador que ele deve ser inicializado a partir desse dispositivo externo.
-

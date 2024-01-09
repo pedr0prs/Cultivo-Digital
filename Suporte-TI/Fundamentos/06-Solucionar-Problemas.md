@@ -42,4 +42,3 @@ Ao resolver problemas, é importante estar ciente de algumas armadilhas comuns:
 - **Trabalhar no piloto automático:** Não se deixe levar pelo hábito ou por impressões gerais. Faça perguntas e colete dados para entender inteiramente o problema.
 - **Não encontrar a causa raiz:** É tentador se distrair com pequenos problemas que surgem. Mas é importante lembrar que provavelmente há um problema maior causando todos os pequenos.
 - **Resolvido rapidamente:** Se você quer corrigir rapidamente, é tentador limpar o sistema e começar do zero. Mas isso pode não resolver o problema de forma permanente.
-

@@ -23,4 +23,3 @@ Contar em binário é um pouco diferente. Enquanto nós, humanos, gostamos do si
 Quando a gente usa um computador, é tipo dirigir um carro: a gente não precisa entender cada parafuso, só quer ir de um lugar para outro. Isso é abstração, uma mágica que simplifica a complexidade dos zeros e uns lá dentro.
 
 Mas, peraí, se você tá no mundo da TI, é bom conhecer as camadas dessa "máquina mágica". Tem o hardware, que são os pedaços físicos, tipo laptops e monitores. O sistema operacional faz a galera se entender, mesmo que sejam de "marcas" diferentes. Depois, vem o software, os aplicativos e sistemas que a gente usa, e claro, nós, os usuários, a camada humana, mexendo, operando e até programando essa máquina incrível.
-

@@ -12,4 +12,3 @@ O **gerenciamento** de software é o processo de instalação, atualização e r
 ## Automação de software
 
 A automação de software é o uso de software para automatizar tarefas que seriam realizadas manualmente. Isso pode ser usado para tarefas simples, como atualizar softwares, ou para tarefas mais complexas, como o gerenciamento de redes.
-
