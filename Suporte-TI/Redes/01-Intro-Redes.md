@@ -1,6 +1,6 @@
 # Introdução a redes de computadores
 
-Computadores se comunicam entre si como nós humanos. 
+Computadores se comunicam entre si como nós humanos.
 Para isso, eles precisam usar um conjunto de regras chamado protocolo.
 As redes de computadores são responsáveis por garantir que os computadores possam se ouvir, falar a mesma língua e repetir mensagens não recebidas.
 
@@ -105,7 +105,7 @@ Um cabo de rede com conector RJ45 se conecta a uma porta de rede RJ45.
 As portas de rede são geralmente encontradas em dispositivos como switches, servidores e desktops.
 As portas de rede geralmente têm dois LEDs: um LED de link e um LED de atividade.
 O LED de link acende quando o cabo está conectado corretamente.
-O LED de atividade pisca quando dados estão sendo transmitidos pelo cabo. 
+O LED de atividade pisca quando dados estão sendo transmitidos pelo cabo.
 Às vezes, o mesmo LED é usado para link e atividade.
 Em alguns casos, as portas de rede não estão conectadas diretamente aos dispositivos.
 Em vez disso, elas podem ser instaladas na parede ou embaixo da mesa.
