@@ -164,7 +164,7 @@ Basicamente, quando se cria um hardlink, aponta-se para um local físico no disc
 Para criar um softlink, podemos executar o comando `ln -s important_file important_file_softlink`.
 Para criar um hardlink, podemos executar o comando `ln important_file important_file_hardlink`.
 
-Os hardlinks são ótimos caso você precise do mesmo arquivo armazenado em lugares diferentes, mas não quer gastar espaço adicional no volume. Isso porque todos os hardlinks apontam para o mesmo espaço no volume. Você pode usar softlinks para fazer a mesma coisa. Mas e se você mover o arquivo, quebrar o link e se esquecer de todos os outros lugares em que você o usou? Esse links seriam quebrados também e você levaria tempo para limpar tudo. 
+Os hardlinks são ótimos caso você precise do mesmo arquivo armazenado em lugares diferentes, mas não quer gastar espaço adicional no volume. Isso porque todos os hardlinks apontam para o mesmo espaço no volume. Você pode usar softlinks para fazer a mesma coisa. Mas e se você mover o arquivo, quebrar o link e se esquecer de todos os outros lugares em que você o usou? Esse links seriam quebrados também e você levaria tempo para limpar tudo.
 
 #### Linux: uso de disco
 
