@@ -4,7 +4,7 @@ Os processos desempenham um papel importante na experiência de usuário do comp
 
 ## Programas x processos
 
-Processos são programas que estão em execução. Podemos ter muitos processos em execução para o mesmo programa, pois podemos ter muitas janelas do Chrome abertas de uma só vez. 
+Processos são programas que estão em execução. Podemos ter muitos processos em execução para o mesmo programa, pois podemos ter muitas janelas do Chrome abertas de uma só vez.
 
 Quando iniciamos um processo, estamos executando um programa. E lembre-se: o programa é apenas software. Para calcular as informações contidas em nosso software, precisamos oferecer recursos para que ele possa ser executado.
 
@@ -59,6 +59,19 @@ O Process Explorer é um utilitário que a Microsoft criou para permitir que esp
 Embora não venha instalado no sistema operacional Windows, você pode baixá-lo no site da Microsoft.
 
 O Process Explorer consegue fazer muitas coisas e vamos passar por algumas das informações de monitoramento que ele oferece em outra aula. Não vamos entrar nos detalhes de todas os recursos. Então, se você estiver curioso, pode conferir a documentação no site da Microsoft. Colocamos um link para você na leitura suplementar.
+
+#### Windows: monitoramento de recursos
+
+Na função de suporte de TI, o gerenciamento de processos é muito útil quando os processos se desorganizam. Nossos sistemas contam com boas formas de monitorar os processos e nos dizer quais deles podem estar com problemas. No Windows, uma das maneiras mais comuns de dar uma olhada rápida no desempenho dos recursos do sistema é usar a ferramenta "Monitor de Recursos". Você pode encontrá-la em alguns lugares, mas vamos iniciá-la a partir do menu "Iniciar". Depois de abrir o aplicativo, você verá cinco abas. Uma delas é a "Visão geral" de todos os recursos do sistema. Cada aba serve para exibir informações sobre determinado recurso no sistema. Você também verá que o Monitor de Recursos também exibe informações de processos juntamente com dados sobre os recursos que o processo está consumindo. Você pode obter essas informações de desempenho com um pouco menos de detalhes no Process Explorer. Basta selecionar o processo em que você está interessado, clicar com o botão direito e escolher "Properties".
+Depois, escolha a aba "Performance Graph". Você pode ver resumos instantâneos da memória atual da CPU indicada por bytes privados e a atividade do disco indicada por Input/Output.
+
+Existem várias maneiras de obter essas informações na linha de comando, mas vamos nos concentrar no PowerShell `Get-Process`. Sabemos que, se executarmos o "Get-Process" sem nenhuma opção ou flag, obtemos informações sobre cada processo em execução no sistema.
+
+`Get-Process | Sort CPU - descending | Select -first 3 -proprerty ID ProcessName, CPU`. E desta forma simples, você vê os três principais usuários de CPU no sistema. Esse comando pode ser um pouco difícil de entender.
+
+Primeiro, usamos o comando "Get-Process" para obter todas as informações dos processos do sistema operacional. Então, usamos uma barra vertical conectar o resultado desse comando ao comando `sort`. Você deve se lembrar das barras verticais em alguns exemplos do Linux. Ordenamos os resultados do "Get-Process" pela coluna CPU em ordem decrescente para colocar os números maiores primeiro. Então, canalizamos essa informação com a barra vertical para o comando "select". Usando "select", escolhemos as três primeiras linhas do resultado do comando "sort" e escolhemos apenas o ID da propriedade, o nome e quantidade de CPU para exibição.
+
+Agora que você tem noções de linha de comando e das ferramentas gráficas que o Windows oferece para investigar o uso de recursos, vamos dar uma olhada no monitoramento de recursos do Linux.
 
 ### Linux: criação e encerramento de processos
 
@@ -128,3 +141,19 @@ Para retomar a execução do processo, você pode usar "-CONT".
 Agora, se eu olhar o processo novamente, dá para ver que o status do processo mudou de T para um S.
 
 **SIGTERM, SIGKILL e SIGSTP** são alguns dos sinais mais comuns que você verá ao trabalhar com processos no Linux.
+
+#### Linux: monitoramento de recursos
+
+O "top" mostra os principais processos que usam mais os recursos da nossa máquina. Também vemos um panorama de todas as tarefas em execução ou inativas, uso da CPU, uso da memória e muito mais. Os campos mais comuns de se observar no comando "top" são estes aqui: %CPU e %MEM.
+Eles exibem o uso de CPU e de memória que determinada tarefa está fazendo. Para sair do comando "top", aperte a tecla "Q", que vem de "Quit".
+
+Uma situação comum que você pode encontrar é o computador do usuário ficar muito lento. Pode haver várias razões, mas uma das mais comuns é o uso excessivo de recursos de hardware. Se você vir que o "top" indica que certa tarefa está ocupando muita memória ou CPU, você deve investigar o que o processo está fazendo. Você pode até encerrar o processo para que ele libere os recursos que estava usando.
+
+Outra ferramenta útil para a utilização de recursos é o comando `uptime`. Este comando mostra informações sobre a hora atual, há quanto tempo seu sistema está funcionando, quantos usuários estão logados e qual é a média de carga da sua máquina.
+O mais importante aqui é a média de carga do sistema. Ela mostra a carga média da CPU em intervalos de 1, 5 e 15 minutos. As médias de carga são uma métrica interessante. Eles são muito úteis quando você precisa ver como sua máquina está se comportando durante um período de tempo.
+
+Outro comando que você pode usar para gerenciar processos é o `lsof`. Digamos que você tenha uma unidade USB conectada à sua máquina e esteja trabalhando com alguns dos seus arquivos na máquina. Então, ao ejetar o pen-drive, você recebe um erro dizendo: dispositivo ou recurso ocupado.
+Você já verificou que nenhum dos arquivos da unidade USB está em uso ou aberto em nenhum lugar, ou é o que parece. Com o comando "lsof", você não precisa ter dúvidas. Ele lista os arquivos abertos e quais processos os estão usando.
+Este comando é ótimo para rastrear aqueles processos irritantes que estão mantendo os arquivos abertos.
+
+Um último detalhe importante sobre a utilização de hardware é poder monitorá-la separadamente dos processos. Se você quisesse ver apenas como está a CPU ou a memória, você poderia usar vários comandos para ver os resultados. Não é nada muito útil para uma única máquina, mas talvez no futuro, se você gerenciar uma frota de máquinas, você poderá pensar no monitoramento da utilização de hardware de todas as suas máquinas de uma só vez.
