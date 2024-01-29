@@ -12,14 +12,15 @@ Documentação é a chave para:
 - Melhorar a comunicação
 - Garantir a qualidade
 - Reduzir custos
-- Como documentar?
+
+## Como documentar
 
 Existem duas maneiras principais de documentar informações na área de TI:
 
 - Sistema de bugs ou tíquetes
 - Procedimentos e políticas
 
-## Tíquetes
+### Tíquetes
 
 Os tíquetes são uma forma comum de documentar um problema. Os bugs são problemas no sistema que não foram causados por uma fonte externa.
 
@@ -36,7 +37,7 @@ Isso é importante por dois motivos:
 - Mantém o usuário informado.
 - Ajuda a auditar seus procedimentos caso você precise ver o que fez.
 
-## Procedimentos e políticas
+### Procedimentos e políticas
 
 Além de documentar problemas, você também pode anotar procedimentos e políticas para criar uma trilha de documentação.
 
@@ -44,19 +45,19 @@ Você tem muitas opções para anotar e armazenar sua documentação. Pode mante
 
 O importante é garantir que ela possa ser acessada por todos na empresa.
 
-### Atualize sua documentação
+## Atualize sua documentação
 
 A documentação não é algo que se faz e abandona depois. Sistemas e processos estão mudando constantemente, e sua documentação deve refletir isso.
 
 É importante atualizar a documentação regularmente para que você não acabe lendo algo obsoleto.
 
-#### Seja conciso
+### Seja conciso
 
 Uma última coisa que quero destacar sobre como escrever documentação é que você não precisa de criatividade na escrita. Você não está escrevendo uma história curta. Está escrevendo um documento técnico.
 
 Você tem que ser o mais conciso possível. Para que, quando alguém ler seu documento, consiga descobrir com facilidade o que precisa fazer.
 
-##### Aqui vai um exemplo de como a documentação pode ser útil
+#### Aqui vai um exemplo de como a documentação pode ser útil
 
 Imagine que você encontra um problema estranho ao ajudar um usuário. Esse problema acontece tanto que você e seus colegas conseguiram encontrá-lo.
 

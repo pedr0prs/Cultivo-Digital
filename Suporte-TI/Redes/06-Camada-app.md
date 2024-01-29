@@ -25,6 +25,7 @@ No modelo OSI, a camada de aplicação é a camada mais alta. Ela é responsáve
 As duas camadas adicionais do modelo OSI são a camada de sessão e a camada de apresentação.
 
 - **A camada de sessão** é responsável por gerenciar a comunicação entre as aplicações. Ela garante que as aplicações se comuniquem corretamente e que os dados sejam entregues na ordem correta.
+
 - **A camada de apresentação** é responsável por formatar os dados para que sejam compreendidos pelas aplicações. Ela pode realizar tarefas como criptografia, compactação e descompactação de dados.
 
 No modelo de cinco camadas, as funções da camada de sessão e da camada de apresentação são realizadas pela camada de aplicação.

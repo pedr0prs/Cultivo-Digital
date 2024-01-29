@@ -20,7 +20,7 @@ As regras que ditam a comunicação entre dispositivos em uma rede.
 
 ## História da Internet
 
-A Internet começou a ser desenvolvida na década de 1960, como um meio de comunicação entre computadores acadêmicos e governamentais. A primeira rede de computadores a usar o protocolo TCP/IP foi a *ARPANTE*, criada pelo Departamento de Defesa dos Estados Unidos.
+A Internet começou a ser desenvolvida na década de 1960, como um meio de comunicação entre computadores acadêmicos e governamentais. A primeira rede de computadores a usar o protocolo TCP/IP foi a **ARPANTE**, criada pelo Departamento de Defesa dos Estados Unidos.
 
 Na década de 1970, a Internet começou a se expandir para fora do ambiente acadêmico e governamental. Em 1983, o TCP/IP foi adotado como o protocolo padrão da Internet.
 

@@ -1,4 +1,3 @@
-
 # Introdução a habilidades interpessoais no suporte de TI
 
 O atendimento ao cliente é uma habilidade essencial no suporte de TI. Mesmo que você tenha todo o conhecimento técnico do mundo, se o usuário tiver uma experiência ruim no processo de resolução do seu problema, você falhou.

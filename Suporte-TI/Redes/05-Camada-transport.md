@@ -4,7 +4,7 @@ As três primeiras camadas do modelo OSI explicam como os nós individuais de um
 
 ## Camada de transporte
 
-A camada de transporte é responsável por várias funções importantes nas redes de computadores. Dentre elas, a multiplexação e a desmultiplexação de tráfego, o estabelecimento de conexões de longa duração e a garantia da integridade dos dados por meio de checagem de erros e verificação de dados.
+A camada de transporte é responsável por várias funções importantes nas redes de computadores. Dentre elas, a **multiplexação e a desmultiplexação de tráfego**, o estabelecimento de conexões de longa duração e a garantia da integridade dos dados por meio de checagem de erros e verificação de dados.
 
 A multiplexação na camada de transporte significa que os nós da rede podem direcionar o tráfego para diferentes serviços de recepção. A desmultiplexação é o mesmo conceito, só que na ponta receptora, ela pega o tráfego totalmente destinado ao mesmo nó e o entrega ao serviço de recepção correto.
 
@@ -16,9 +16,12 @@ Por exemplo:
 
 - *um servidor web tradicional escuta na porta 80. Isso significa que se você quiser acessar um site hospedado nesse servidor, você direcionará o tráfego para 10.1.1.100 porta 80.*
 
-O mesmo dispositivo também pode estar rodando um servidor FTP, ou File Transfer Protocol. O FTP é um método antigo usado para transferir arquivos de um computador para o outro, mas que ainda está em uso hoje. O FTP tradicionalmente escuta na porta 21. Logo, se você quisesse estabelecer uma conexão com um servidor FTP rodando no mesmo IP do servidor web em execução no nosso exemplo, você direcionaria o tráfego para 10.1.1.100 porta 21.
+O mesmo dispositivo também pode estar rodando um servidor FTP, ou File Transfer Protocol. O FTP é um método antigo usado para transferir arquivos de um computador para o outro, mas que ainda está em uso hoje.
+O FTP tradicionalmente escuta na porta 21. Logo, se você quisesse estabelecer uma conexão com um servidor FTP rodando no mesmo IP do servidor web em execução no nosso exemplo, você direcionaria o tráfego para 10.1.1.100 porta 21.
 
-Em ambientes pequenos, um único servidor pode hospedar quase todas as aplicações necessárias para administrar o negócio. O mesmo computador pode hospedar um website interno, o servidor de e-mail para a empresa, um servidor de arquivos para compartilhamentos, um servidor de impressoras para compartilhamento de impressoras em rede, praticamente tudo. Tudo isso é possível em razão da multiplexação e desmultiplexação, além da adição de portas no esquema de endereçamento.
+Em ambientes pequenos, um único servidor pode hospedar quase todas as aplicações necessárias para administrar o negócio. O mesmo computador pode hospedar um website interno, o servidor de e-mail para a empresa, um servidor de arquivos para compartilhamentos, um servidor de impressoras para compartilhamento de impressoras em rede, praticamente tudo.
+
+Tudo isso é possível em razão da **multiplexação e desmultiplexação, além da adição de portas no esquema de endereçamento.**
 
 ## Segmento TCP
 
@@ -27,14 +30,23 @@ O segmento TCP é composto de um cabeçalho TCP e uma seção de dados. A seçã
 O cabeçalho TCP é dividido em vários campos que contêm informações importantes.
 
 - **Porta de origem:** A porta de origem é uma porta de numeração alta escolhida de uma seção especial de portas conhecidas como portas efêmeras. Ela é necessária para manter separadas muitas conexões de saída.
+
 - **Porta de destino:** A porta de destino é a porta do serviço para o qual o tráfego é destinado. Ela é necessária para que o computador que fez a solicitação original possa enviar esses dados para o programa que os solicitou.
+
 - **Número de sequência:** O número de sequência é um número de 32 bits usado para rastrear onde este segmento deve ficar na sequência de segmentos TCP. Ele é usado para garantir que os dados sejam recebidos na ordem correta.
+
 - **Número de confirmação:** O número de confirmação é o número do próximo segmento esperado. Ele é usado para informar ao remetente que o segmento anterior foi recebido com sucesso.
+
 - **Offset de dados:** O offset de dados é um número de quatro bits que comunica o comprimento do cabeçalho TCP para este segmento. Ele é usado pelo dispositivo de rede de recepção para entender onde começa o payload em si.
+
 - **Flags de controle:** Os flags de controle são seis bits que indicam o estado da conexão TCP. Eles são usados para controlar o fluxo de dados, confirmar a recepção e indicar se os dados são urgentes.
+
 - **Janela TCP:** A janela TCP é um número de 16 bits que especifica o intervalo de números de sequência que podem ser enviados antes que uma confirmação seja necessária. Ela é usada para controlar o fluxo de dados e evitar que o remetente envie dados demais para o destinatário.
+
 - **Checksum:** O checksum é um número de 16 bits que é usado para verificar se os dados foram corrompidos durante a transmissão.
+
 - **Ponteiro urgente:** O ponteiro urgente é usado em conjunto com um dos flags de controle TCP para indicar segmentos específicos que podem ser mais importantes que outros. Ele é raramente usado na prática.
+
 - **Opções:** As opções são campos opcionais que podem ser usados para fornecer informações adicionais sobre o segmento TCP. Elas são raramente usadas na prática.
 
 ## Sinalizações de controle TCP e o handshake de três vias
@@ -43,15 +55,21 @@ A maneira como o TCP estabelece uma conexão é usando diferentes flags de contr
 
 ### Flags de controle TCP
 
-- **URG:** Urgente. O valor de um indica que o segmento é considerado urgente e que o campo urgent pointer tem mais dados sobre isso.
-- **ACK:** Acknowledge. O valor de um neste campo significa que o campo acknowledgment number deve ser examinado.
-- **PSH:** Push. Significa que o dispositivo transmissor quer que o dispositivo receptor empurre os dados atualmente armazenados em buffer para a aplicação no terminal de recebimento o mais rápido possível.
-- **RST:** Reset. Significa que um dos lados da conexão TCP não conseguiu se recuperar adequadamente de uma série de segmentos ausentes ou malformados.
-- **SYN:** Sincronize. É usado no primeiro estabelecimento de uma conexão TCP, garantindo que o lado receptor saiba examinar o campo sequence number.
-- **FIN:** Finish. Quando esse flag está definido como um, isso significa que o computador de transmissão não tem mais dados para enviar e a conexão pode ser encerrada.
-Handshake de três vias
+- **URG:** Urgente. O valor de um indica que o segmento é considerado urgente e que o campo `urgent pointer` tem mais dados sobre isso.
 
-Para iniciar o processo, o computador A envia um segmento TCP ao computador B com o flag SYN definido. Esta é a maneira de o computador A dizer: *"Vamos estabelecer uma conexão e olhar para o meu campo sequence number para sabermos onde começar esta conversa."*
+- **ACK:** Acknowledge. O valor de um neste campo significa que o campo `acknowledgment number` deve ser examinado.
+
+- **PSH:** Push. Significa que o dispositivo transmissor quer que o dispositivo receptor empurre os dados atualmente armazenados em buffer para a aplicação no terminal de recebimento o mais rápido possível.
+
+- **RST:** Reset. Significa que um dos lados da conexão TCP não conseguiu se recuperar adequadamente de uma série de segmentos ausentes ou malformados.
+
+- **SYN:** Sincronize. É usado no primeiro estabelecimento de uma conexão TCP, garantindo que o lado receptor saiba examinar o campo sequence number.
+
+- **FIN:** Finish. Quando esse flag está definido como um, isso significa que o computador de transmissão não tem mais dados para enviar e a conexão pode ser encerrada.
+
+### Handshake de três vias
+
+Para iniciar o processo, o computador A envia um segmento TCP ao computador B com o `flag SYN` definido. Esta é a maneira de o computador A dizer: "Vamos estabelecer uma conexão e olhar para o meu campo sequence number para sabermos onde começar esta conversa".
 
 O computador B responde com um segmento TCP, em que ambos os flags SYN e ACK estão definidos. Esta é a maneira do computador B dizer: *"Claro, vamos estabelecer uma conexão e eu confirmo seu número de sequência."*
 

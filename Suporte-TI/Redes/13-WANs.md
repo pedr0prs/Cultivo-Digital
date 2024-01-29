@@ -4,7 +4,9 @@
 
 Diferentemente de uma LAN, ou rede local, a WAN significa rede de área ampla. Uma rede de área ampla funciona como uma única rede, mas abrange vários locais físicos. As tecnologias WAN geralmente exigem que você contrate um link da Internet com seu ISP. Este ISP trata de enviar seus dados de um lado para o outro. Assim, é como se todos os seus computadores estivessem no mesmo local físico. Uma configuração típica de WAN tem algumas seções.
 
-Imagine uma rede de computadores de um lado do país e outra rede de computadores do outro. Cada uma dessas redes termina em um ponto de demarcação, que é onde a rede do ISP assume. A área entre cada ponto de demarcação e a rede principal do ISP é chamada de anel local. Este anel local seria algo como uma linha T-Carrier ou uma conexão ótica de alta velocidade com escritório regional local do provedor. De lá, ele se conecta à rede principal do ISP e à Internet como um todo. As WANs funcionam usando vários protocolos diferentes na camada de enlace de dados para transportar seus dados de um local para o outro. Na verdade, esses mesmos protocolos funcionam no centro da própria Internet, em vez de funcionarem na nossa conhecida Ethernet.
+Imagine uma rede de computadores de um lado do país e outra rede de computadores do outro. Cada uma dessas redes termina em um ponto de demarcação, que é onde a rede do ISP assume. A área entre cada ponto de demarcação e a rede principal do ISP é chamada de anel local. Este anel local seria algo como uma linha T-Carrier ou uma conexão ótica de alta velocidade com escritório regional local do provedor. De lá, ele se conecta à rede principal do ISP e à Internet como um todo.
+
+As WANs funcionam usando vários protocolos diferentes na camada de enlace de dados para transportar seus dados de um local para o outro. Na verdade, esses mesmos protocolos funcionam no centro da própria Internet, em vez de funcionarem na nossa conhecida Ethernet.
 
 ## VPNs ponto-a-ponto
 
@@ -16,7 +18,7 @@ Isso torna as despesas da WAN totalmente desnecessárias. Em vez disso, as empre
 
 No mundo de hoje, cada vez menos dispositivos se limitam a cabos físicos para se conectar às redes de computadores. As rede sem fio são exatamente o que parecem ser. Um forma de rede que não usa cabos.
 
-As especificações mais comuns de como os dispositivos de rede sem fio devem se comunicar são definidas pelos padrões IEEE 802.11. Este conjunto de especificações, também chamado de família 802.11, compõem o conjunto de tecnologias que chamamos de WiFi. Os dispositivos de rede sem fio se comunicam através de ondas de rádio. Diferentes padrões 802.11 geralmente usam o mesmo protocolo básico, mas podem operar em diferentes bandas de frequência. Uma banda de frequência é uma determinada seção do espectro de rádio que foi delimitada para ser usada para certas comunicações.
+As especificações mais comuns de como os dispositivos de rede sem fio devem se comunicar são definidas pelos padrões **IEEE 802.11.** Este conjunto de especificações, também chamado de família 802.11, compõem o conjunto de tecnologias que chamamos de WiFi. Os dispositivos de rede sem fio se comunicam através de ondas de rádio. Diferentes padrões 802.11 geralmente usam o mesmo protocolo básico, mas podem operar em diferentes bandas de frequência. Uma banda de frequência é uma determinada seção do espectro de rádio que foi delimitada para ser usada para certas comunicações.
 
 As redes WiFi operam em algumas bandas de frequência diferentes. Geralmente são as bandas de 2,4 gigahertz e 5 gigahertz. Existem muitas especificações 802.11, incluindo algumas que existem apenas experimentalmente ou para testes. As especificações mais comuns que você pode encontrar são 802.11b, 802.11a, 802.11g, 802.11n e 802.11ac.
 
@@ -58,7 +60,7 @@ O objetivo é entender como os domínios de colisão são um problema comum em t
 
 ##### Segurança sem fio
 
-WEP significa privacidade equivalente à conexão com fio e é uma tecnologia de criptografia que oferece um nível muito baixo de privacidade. Na verdade, está escrito no nome: privacidade equivalente à conexão com fio.
+**WEP** significa privacidade equivalente à conexão com fio e é uma tecnologia de criptografia que oferece um nível muito baixo de privacidade. Na verdade, está escrito no nome: privacidade equivalente à conexão com fio.
 
 O uso do WEP protege um pouco seus dados, mas deve ser visto como se fosse um simples envio de dados não criptografados por meio de uma conexão com fio. O padrão WEP é um algoritmo de criptografia realmente fraco. Não leva muito tempo para alguém mal-intencionado quebrar essa criptografia e ler seus dados.
 

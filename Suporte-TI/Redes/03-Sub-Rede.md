@@ -24,7 +24,8 @@ O ID da máquina deste dispositivo é 100.
 
 ## CIDR
 
-CIDR significa Classless Inter-Domain Routing (Roteamento entre Domínios Sem Classe). É uma maneira de descrever blocos de endereço IP de forma mais flexível do que o sistema de classes de endereço original.
+CIDR significa _Classless Inter-Domain Routing (Roteamento entre Domínios Sem Classe)._
+É uma maneira de descrever blocos de endereço IP de forma mais flexível do que o sistema de classes de endereço original.
 
 ### Como funciona o CIDR?
 

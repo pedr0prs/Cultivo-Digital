@@ -10,9 +10,11 @@ O roteador recebe um pacote de dados por uma de suas interfaces.
 O roteador examina o endereço IP de destino do pacote.
 O roteador procura a rede de destino desse IP na tabela de roteamento.
 O roteador encaminha o pacote pela interface mais próxima da rede remota.
-Exemplo
 
-Vamos supor que um computador na rede A envie um pacote de dados para um computador na rede B. O roteador conectado à rede A recebe o pacote e examina o endereço IP de destino. O endereço IP de destino é o endereço IP do computador na rede B. O roteador procura a rede de destino desse IP na tabela de roteamento. A tabela de roteamento indica que a rede de destino está conectada à interface do roteador conectada à rede B. O roteador encaminha o pacote pela interface conectada à rede B.
+- Exemplo:
+
+Vamos supor que um computador na rede A envie um pacote de dados para um computador na rede B.
+O roteador conectado à rede A recebe o pacote e examina o endereço IP de destino. O endereço IP de destino é o endereço IP do computador na rede B. O roteador procura a rede de destino desse IP na tabela de roteamento. A tabela de roteamento indica que a rede de destino está conectada à interface do roteador conectada à rede B. O roteador encaminha o pacote pela interface conectada à rede B.
 
 ### Complexidade do roteamento
 
@@ -78,6 +80,5 @@ O objetivo dos roteadores-núcleo é levar dados ao roteador de borda de um sist
 
 A IANA é uma organização sem fins lucrativos que ajuda a gerenciar tarefas como a alocação de endereços IP.
 
-##### Conclusão
-
-A menos que você vá trabalhar em um provedor de serviços de Internet, conhecer mais detalhes do funcionamento dos protocolos de gateway externo não contribui muito para a maioria das pessoas em TI.
+---
+_A menos que você vá trabalhar em um provedor de serviços de Internet, conhecer mais detalhes do funcionamento dos protocolos de gateway externo não contribui muito para a maioria das pessoas em TI._

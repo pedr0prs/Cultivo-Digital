@@ -1,14 +1,15 @@
 # Serviços de rede
 
-As redes de computadores são um sistema complexo que envolve muitas tecnologias, camadas e protocolos. No fim das contas, a finalidade principal das redes é disponibilizar serviços de rede para responder às solicitações de dados dos clientes.
+As redes de computadores são um sistema complexo que envolve muitas tecnologias, camadas e protocolos. No fim das contas, a finalidade principal das redes é **disponibilizar serviços de rede para responder às solicitações de dados dos clientes.**
 
-O grande número e variedade de coisas que podem estar embutidos em um serviço de rede torna impossível ensinar tudo sobre eles. No entanto, existem muitos serviços e tecnologias de rede que são usados para tornar as redes de computadores mais seguras e fáceis de usar. Esses serviços e tecnologias de rede são aqueles que se relacionam diretamente com a área de redes em si, e é importante entender como eles funcionam.
+Ha um grande número e variedade de coisas que podem estar embutidos em um serviço de rede. No entanto, existem muitos serviços e tecnologias de rede que são usados para tornar as redes de computadores mais seguras e fáceis de usar. Esses serviços e tecnologias de rede são aqueles que se relacionam diretamente com a área de redes em si, e é importante entender como eles funcionam.
 
 ## Por que precisamos de um DNS
 
-Os humanos conseguem se lembrar muito melhor de palavras do que de números. É aí que entra em ação o DNS, ou sistema de nomes de domínio. O DNS é um serviço de rede global e amplamente distribuído que transforma para você sequências de letras em endereços IP.
+Os humanos conseguem se lembrar muito melhor de palavras do que de números. É aí que entra em ação o **DNS (sistema de nomes de domínio)**. O DNS é um serviço de rede global e amplamente distribuído que traduz endereços IP em letras.
 
-O endereço IP para o nome de um domínio pode mudar todo o tempo por muitas razões diferentes. Por exemplo, uma organização pode mudar seu provedor de serviços de Internet (ISP), o que pode resultar em um novo endereço IP para seus servidores web. O nome de domínio é apenas o termo que usamos para algo que pode ser resolvido pelo DNS.
+O endereço IP para o nome de um domínio pode mudar todo o tempo por muitas razões diferentes.
+uma organização pode mudar seu provedor de serviços de Internet (ISP), o que pode resultar em um novo endereço IP para seus servidores web. O nome de domínio é apenas o termo que usamos para algo que pode ser resolvido pelo DNS.
 
 Usando o DNS, uma organização pode simplesmente mudar o endereço IP ao qual o nome de domínio está vinculado e o usuário final pode nem saber. Isso significa que os usuários não precisam se preocupar em memorizar novos endereços IP sempre que os servidores web de uma organização mudarem de endereço.
 
@@ -22,7 +23,7 @@ A importância do DNS para o funcionamento da internet hoje em dia não pode ser
 
 Os endereços IP podem se vincular a coisas diferentes dependendo do lugar do mundo em que você está. Isso ocorre porque os endereços IP são distribuídos em blocos geográficos.
 
-Embora a maioria das comunicações na internet viaje na velocidade da luz, quanto mais você precisar direcionar dados, mais lentas as coisas ficarão. Em quase todas as situações, é mais rápido transmitir uma certa quantidade de dados entre lugares que estão geograficamente próximos uns dos outros.
+Embora a maioria das comunicações na internet viaje na velocidade da luz, quanto mais você precisar direcionar dados, mais lentas as coisas ficarão. Em quase todas as situações, é mais rápido transmitir uma certa quantidade de dados **entre lugares que estão geograficamente próximos uns dos outros.**
 
 Se você é uma empresa global, vai querer que pessoas de todo o mundo tenham uma ótima experiência ao acessar seu site. Então, em vez de manter todos os servidores web em um só lugar, você pode distribuí-los por data centers de todo o mundo.
 
@@ -32,7 +33,11 @@ O DNS ajuda a viabilizar essa funcionalidade. Por causa de sua estrutura global,
 
 ## As várias etapas da resolução de nomes
 
-A primeira coisa que é importante saber é que os servidores DNS devem ser configurados em um nó da rede. Para que o computador funcione em uma rede moderna, ele precisa estar configurado de determinadas formas. Lembre-se de que os endereços MAC são codificados e vinculados a peças específicas do hardware. Mas também falamos que o endereço IP, a máscara de subrede e o gateway para um host devem ter configurações específicas. O servidor DNS é a quarta e última parte da configuração padrão de redes modernas. Estas são quase sempre as quatro coisas que devem ser configuradas para que um host funcione em uma rede de forma adequada. Devo destacar que um computador pode funcionar bem sem o DNS ou sem um servidor DNS configurado, mas isso dificulta o uso do computador para o ser humano.
+A primeira coisa que é importante saber é que os servidores DNS devem ser configurados em um nó da rede. Para que o computador funcione em uma rede moderna, ele precisa estar configurado de determinadas formas.
+
+Lembre-se de que os endereços MAC são codificados e vinculados a peças específicas do hardware. Mas também falamos que o endereço IP, a máscara de subrede e o gateway para um host devem ter configurações específicas.
+
+O servidor DNS é a quarta e última parte da configuração padrão de redes modernas. Estas são quase sempre as quatro coisas que devem ser configuradas para que um **host funcione em uma rede de forma adequada.**
 
 ### Existem cinco tipos principais de servidores DNS
 
@@ -70,6 +75,6 @@ O DNS é um serviço da camada de aplicação que usa UDP para a camada de trans
 
 Uma pesquisa completa de DNS via TCP requer 44 pacotes no mínimo. Isso ocorre porque o TCP requer um handshake triplo para estabelecer uma conexão, seguido de uma solicitação e resposta para cada hop na cadeia de resolução de nomes.
 
-Uma pesquisa completa de DNS via UDP requer apenas 8 pacotes. Isso ocorre porque o UDP não requer um handshake para estabelecer uma conexão.
+Uma pesquisa completa de DNS via **UDP requer apenas 8 pacotes.** Isso ocorre porque o UDP não requer um handshake para estabelecer uma conexão.
 
 A recuperação de erros no DNS via UDP é realizada simplesmente repetindo a solicitação se não houver resposta.

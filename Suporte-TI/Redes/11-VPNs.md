@@ -1,10 +1,8 @@
 # VPNs
 
-As empresas têm muitos motivos ter segurança em suas redes. E, para tanto, elas lançam mão de algumas das tecnologias que já estudamos. Os firewalls, o NAT, o uso de espaço de endereço não roteável, etc.
-
 As organizações geralmente têm informações proprietárias que precisam permanecer seguras. Serviços de rede destinados a acesso exclusivo para funcionários e outras coisas. Uma das maneiras mais fáceis de manter as redes seguras é usar várias tecnologias de segurança de forma que apenas dispositivos fisicamente conectados à rede local possam acessar esses recursos. Mas nem sempre os funcionários estão no escritório. Eles podem estar trabalhando em casa ou em uma viagem de negócios, e ainda assim podem precisar acessar esses recursos para fazer seu trabalho. É aí que entram as VPNs.
 
-As redes privadas virtuais, ou VPNs, são uma tecnologia que permite estender uma rede privada ou local para um host que pode não operar na mesma rede local. As VPNs têm diversas variações e fazem muitas coisas diferentes. 
+As redes privadas virtuais, ou VPNs, são uma tecnologia que permite estender uma rede privada ou local para um host que pode não operar na mesma rede local. As VPNs têm diversas variações e fazem muitas coisas diferentes.
 
 O exemplo mais comum de uso das VPNs é para que funcionários acessem a rede de suas empresas quando não estão no escritório. As VPNs são um protocolo de tunelamento, o que significa que elas viabilizam acesso a algo que não está disponível localmente. Ao estabelecer uma conexão VPN, você também pode dizer que foi feito um túnel VPN.
 
@@ -14,7 +12,7 @@ Isso colocaria no computador dele o que é conhecido como interface virtual com 
 
 A maioria das VPNs funciona usando a seção payload da camada de transporte para transportar um payload criptografado que contém um segundo conjunto inteiro de pacotes: as camadas de rede, de transporte e de aplicação de um pacote destinado a atravessar a rede remota.
 
-Basicamente, esse payload é transportado para o endpoint da VPN, onde todas as outras camadas são removidas e descartadas.
+Basicamente, esse **payload** é transportado para o endpoint da VPN, onde todas as outras camadas são removidas e descartadas.
 
 Então, o payload é descriptografado, deixando o servidor VPN com as três camadas superiores de um novo pacote. Ocorre um encapsulamento com as informações adequadas da camada de enlace de dados e ele é enviado através da rede.
 
@@ -36,8 +34,6 @@ O mais importante é que as VPNs são uma tecnologia que usa túneis criptografa
 
 O serviço de proxy é um servidor que atua em nome de um cliente a fim de acessar outro serviço. Os proxys ficam entre os clientes e outros servidores, oferecendo benefícios como anonimato, segurança, filtragem de conteúdo, aumento de desempenho, dentre outras coisas.
 
-Se algo lhe parece familiar, isso é bom. Já cobrimos alguns exemplos específicos de proxys, como os roteadores de gateway.
-
 O conceito de proxy é isso: um conceito ou uma abstração. Não se refere a nenhuma implementação específica. Os proxys existem em quase todas as camadas do nosso modelo de rede.
 
 Na maioria das vezes, você vai ouvir o termo proxy usado para se referir a proxys web. Como você pode imaginar, esses são proxys especificamente criados para tráfego na web. Um proxy web pode atender a muitos fins.
@@ -50,11 +46,11 @@ Além disso, a web tornou-se muito mais dinâmica. O acesso à página twitter t
 
 Um uso mais comum do proxy web hoje pode ser para impedir totalmente alguém de acessar sites como o Twitter. Uma empresa pode decidir que o acesso ao Twitter durante o horário de trabalho reduz a produtividade. Usando um proxy web, é possível direcionar todo o tráfego da web para ele, permitir que o proxy inspecione quais dados estão sendo solicitados e, depois, permitir ou negar esse pedido, dependendo de qual site está sendo acessado.
 
-Outro exemplo de proxy é o proxy reverso. O proxy reverso é um serviço que pode parecer ser um único servidor para clientes externos, mas que representa muitos servidores que existem por trás dele.
+Outro exemplo de proxy é o **proxy reverso**. O proxy reverso é um serviço que pode parecer ser um único servidor para clientes externos, mas que representa muitos servidores que existem por trás dele.
 
 Um bom exemplo disso é a arquitetura de sites populares hoje em dia. Sites muito populares, como o Twitter, recebem tanto tráfego que seria impossível um único servidor lidar com tudo. Um site popular assim pode precisar de muitos, muitos servidores web para dar conta do processamento de todos as solicitações recebidas.
 
-O proxy reverso, nessa situação, pode atuar como uma frente única para muitos servidores web que estão por trás. Do ponto de vista dos clientes, parece que eles estão todos conectados ao mesmo servidor. Mas ,nos bastidores, este servidor proxy reverso está distribuindo essas solicitações recebidas para vários servidores físicos diferentes.
+**O proxy reverso**, nessa situação, pode atuar como uma frente única para muitos servidores web que estão por trás. Do ponto de vista dos clientes, parece que eles estão todos conectados ao mesmo servidor. Mas ,nos bastidores, este servidor proxy reverso está distribuindo essas solicitações recebidas para vários servidores físicos diferentes.
 
 Outra maneira de que os proxys reversos são comumente usados por sites populares é para lidar com a descriptografia. Mais da metade de todo o tráfego na web é hoje encriptado, mas criptografar e descriptografar dados é um processo que exige muito poder de processamento.
 

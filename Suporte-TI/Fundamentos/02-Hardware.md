@@ -4,7 +4,7 @@ Hardware é um assunto essencial que deve ser compreendido. Seja para trocar pe�
 
 ## O que é hardware?
 
-Hardware é simplesmente a parte física de um computador. São componentes físicos, como a tela, o teclado, o mouse, a placa-mãe, o processador, a memória RAM, o armazenamento e a fonte de alimentação, etc. Pode acreditar, existem muitos tipos de hardwares, cada qual com sua finalidade e objetivo, a cada dia que se passa se criam novos componentes de hardwares mais tecnológicos.
+Hardware é simplesmente a parte física de um computador. São componentes físicos, como a tela, o teclado, o mouse, a placa-mãe, o processador, a memória RAM, o armazenamento e a fonte de alimentação, etc. Pode acreditar, existem muitos tipos de hardwares, cada qual com sua finalidade e objetivo, a cada dia que se passa se criam novos componentes de hardwares mais modernos.
 
 ## Quais são os componentes principais de um computador?
 
@@ -32,13 +32,9 @@ Se você apertar uma tecla no teclado, enviará apenas um byte para o processado
 
 Acontece que os dispositivos também usam programas para dizer ao processador como executá-los. Esses programas são chamados de **drivers**. Os drivers contêm as instruções de que o processador precisa para compreender dispositivos externos como teclados, webcams, impressoras, entre outros.
 
-O processador não sabe que existe um dispositivo com o qual ele pode conversar, então ele tem que se conectar com o que chamamos de **BIOS**, ou seja, **serviços básicos de entrada e saída.**
+O processador não sabe que existe um dispositivo com o qual ele pode conversar, então ele tem que se conectar com o que chamamos de **BIOS**, ou seja, **serviços básicos de entrada e saída.** A BIOS é um software que ajuda a inicializar o hardware do computador e que coloca o sistema operacional em funcionamento.
 
-A BIOS é um software que ajuda a inicializar o hardware do computador e que coloca o sistema operacional em funcionamento.
-
-No sistema atual, existe outro componente da BIOS chamado de **UEFI**, que significa: *interface unificada de firmware extensível.*
-
-A UEFI executa a mesma função de iniciar seu computador, como a BIOS tradicional. Mas ela é mais moderna e tem melhor compatibilidade e suporte para os hardwares mais novos. A maioria dos hardwares atualmente vem com o UEFI embutido. *No futuro, a UEFI será a BIOS predominante.*
+No sistema atual, existe outro componente da BIOS chamado de **UEFI**, que significa: _interface unificada de firmware extensível._ A UEFI executa a mesma função de iniciar seu computador, como a BIOS tradicional. Mas ela é mais moderna e tem melhor compatibilidade e suporte para os hardwares mais novos. A maioria dos hardwares atualmente vem com o UEFI embutido. *No futuro, a UEFI será a BIOS predominante.*
 
 #### Autoteste de inicialização (POST)
 

@@ -1,6 +1,6 @@
 # Sistemas Operacionais
 
-Um sistema operacional é um software que gerencia os recursos de um computador e fornece uma interface para os usuários interagirem com ele. Ele é composto por duas partes principais: *o kernel e o espaço do usuário.*
+Um sistema operacional é um software que gerencia os recursos de um computador e fornece uma interface para os usuários interagirem com ele. Ele é composto por duas partes principais: **o kernel e o espaço do usuário.**
 
 O kernel é a parte mais fundamental do sistema operacional. Ele é responsável por gerenciar os recursos de hardware do computador, como a CPU, a memória e o armazenamento. Ele também é responsável por fornecer serviços básicos aos aplicativos, como acesso à memória e ao armazenamento.
 
@@ -20,7 +20,7 @@ O espaço do usuário é a parte do sistema operacional com a qual os usuários 
 - **Execução de aplicativos:** o espaço do usuário executa os aplicativos que os usuários desejam usar. Ele fornece uma interface para os usuários interagirem com os aplicativos.
 - **Gerenciamento de configurações:** o espaço do usuário fornece uma interface para os usuários gerenciarem as configurações do sistema.
 
-## Arquivos e sistemas de arquivos
+### Arquivos e sistemas de arquivos
 
 Um arquivo é uma coleção de dados armazenados no computador. Os arquivos podem conter qualquer tipo de dados, como texto, imagens, vídeos ou programas.
 
@@ -28,7 +28,7 @@ Um sistema de arquivos é um conjunto de regras que definem como os arquivos sã
 
 Existem muitos tipos diferentes de sistemas de arquivos. Alguns sistemas de arquivos são projetados para serem eficientes, enquanto outros são projetados para serem seguros ou resistentes a erros.
 
-## Gerenciamento de processos
+### Gerenciamento de processos
 
 Quando queremos rodar um programa, temos que dedicar recursos de computação para ele, como RAM e CPU. O kernel tem que gerenciar os recursos eficientemente, para que todos os programas desejados possam ser executados.
 
@@ -36,11 +36,11 @@ O kernel não dedica todos os recursos do computador para um processo. Nosso sis
 
 O kernel cria processos, escalona-os com eficiência e gerencia como os processos são finalizados.
 
-## Gerenciamento de memória
+### Gerenciamento de memória
 
 Lembre-se que quando um processo é executado, ele precisa de tempo de CPU, mas também precisa de memória. Quando os processos são executados, eles ocupam espaço na memória, para que o computador possa ler e carregá-los rapidamente.
 
-No entanto, em comparação com os discos rígidos, a memória é muito menor. Então, para ter mais memória do que temos fisicamente, usamos algo chamado de memória virtual.
+No entanto, em comparação com os discos rígidos, a memória é muito menor. Então, para ter mais memória do que temos fisicamente, usamos algo chamado de **memória virtual**.
 
 A memória virtual é uma combinação de espaço no disco rígido e da RAM, uma memória que os processos podem usar.
 
@@ -48,7 +48,7 @@ Quando executamos um processo, pegamos os dados do programa em blocos, que chama
 
 ### Gerenciamento de entradas e saídas
 
-O kernel também é responsável por gerenciar entradas e saídas. Chamamos os dispositivos de entrada e saída de I/O (Input/Output). São eles os monitores, teclados, mouses, discos rígidos, caixinhas de som, fones de ouvido Bluetooth, webcams e adaptadores de rede.
+O kernel também é responsável por gerenciar entradas e saídas. Chamamos os dispositivos de entrada e saída de **I/O (Input/Output)**. São eles os monitores, teclados, mouses, discos rígidos, caixinhas de som, fones de ouvido Bluetooth, webcams e adaptadores de rede.
 
 Esses dispositivos I/O são gerenciados pelo kernel, que precisa carregar os drivers que são usados, para que possamos reconhecer e conversar com esses tipos de hardware.
 
@@ -58,9 +58,9 @@ Quando o kernel inicia os drivers para se comunicar com o hardware, ele também 
 
 O espaço do usuário é a parte do sistema operacional com a qual os usuários interagem diretamente. Ele inclui os aplicativos, as interfaces de usuário e as configurações do sistema.
 
-Existem duas formas de interagir com o sistema operacional: com um Shell ou uma interface gráfica de usuário.
+Existem duas formas de interagir com o sistema operacional: **com um Shell ou uma interface gráfica de usuário.**
 
-Uma interface gráfica do usuário, ou GUI, é uma maneira visual de interagir com o computador. Usamos o mouse para clicar e arrastar, para abrir pastas etc. Podemos ver tudo o que fazemos.
+Uma interface gráfica do usuário, ou GUI, é uma maneira visual de interagir com o computador. Usamos o mouse para clicar e arrastar, para abrir pastas etc.
 
 O Shell é basicamente um programa que interpreta comandos de texto e os envia ao sistema operacional para execução.
 
@@ -68,9 +68,9 @@ Embora tenhamos as GUIs hoje, o Shell ainda é muito usado para executar comando
 
 É importante saber usar um Shell na função de suporte de TI. Algumas tarefas só podem ser feitas por meio de comandos. Em funções de TI mais avançadas, você pode ter que gerenciar milhares de máquinas. Não dá para clicar em um botão ou arrastar uma janela em cada máquina quando dá para executar um só comando.
 
-Além da interface gráfica e do Shell, também vamos interagir com o sistema operacional por meio de aplicativos. Existem aplicativos e bibliotecas do sistema que usamos diariamente, como aplicativos de logging, configurações do sistema e muito mais.
+Além da interface gráfica e do Shell, também vamos interagir com o sistema operacional por meio de aplicativos. Existem aplicativos e bibliotecas do sistema que usamos diariamente, como aplicativos de logging, configurações do sistema entre outros.
 
-## Logs
+### Logs
 
 Os logs são arquivos que registram eventos do sistema em nosso computador. Eles registram eventos como quando o computador foi ligado, quando um driver foi carregado, e até quando algo não está funcionando na forma de mensagens de erro.
 
@@ -78,7 +78,7 @@ Os logs são importantes para a solução de problemas, pois podem fornecer info
 
 Para facilitar a navegação nos logs, existem ferramentas que podem ajudá-lo a encontrar as informações que você precisa.
 
-## Máquinas virtuais
+### Máquinas virtuais
 
 As máquinas virtuais são cópias de máquinas reais que podem ser executadas em um computador físico. Elas são úteis para vários propósitos, incluindo:
 
@@ -88,3 +88,11 @@ As máquinas virtuais são cópias de máquinas reais que podem ser executadas e
 - As máquinas virtuais usam recursos físicos, como memória, processamento e armazenamento. No entanto, elas oferecem o benefício adicional de rodar vários sistemas operacionais de uma só vez.
 
 As máquinas virtuais são uma ferramenta poderosa que pode ser usada para uma variedade de propósitos. Se você está procurando uma maneira de executar vários sistemas operacionais em um único computador, as máquinas virtuais são uma ótima opção.
+
+### Containers
+
+Atualmente o estado da arte são os conteiners, eles são pequeno, rápidos e móveis, ao contrário de uma máquina virtual, não precisa de todo um sistema operacional, apenas uma parte, que é conhecida como **image**.
+
+Isso se dá graças ao kernel do sistema operacional GNU/Linux, mais especificamente aos namespaces e cgroups, que isolam os processos e fazem a comunicação externa.
+
+**_Pesquise sobre Docker e Kubernetes._**

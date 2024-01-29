@@ -14,15 +14,17 @@ Os tipos de registros de recursos mais comuns são:
 
 Um nome de domínio é composto de três partes principais:
 
-Domínio de nível superior (TLD): A parte mais à direita do nome de domínio, que indica o tipo de organização ou país ao qual o domínio está associado. Alguns exemplos de TLDs são .com, .net, .org, .edu, .gov, .br e .uk.
-Domínio: A parte do meio do nome de domínio, que identifica a organização ou pessoa que possui o domínio.
-Subdomínio: A parte mais à esquerda do nome de domínio, que pode ser usada para identificar um host ou serviço específico dentro de um domínio.
+- **Domínio de nível superior (TLD):** A parte mais à direita do nome de domínio, que indica o tipo de organização ou país ao qual o domínio está associado. Alguns exemplos de TLDs são .com, .net, .org, .edu, .gov, .br e .uk.
+- **Domínio:** A parte do meio do nome de domínio, que identifica a organização ou pessoa que possui o domínio.
+- **Subdomínio:** A parte mais à esquerda do nome de domínio, que pode ser usada para identificar um host ou serviço específico dentro de um domínio.
+
 Por exemplo, o nome de domínio "www.google.com" é composto das seguintes partes:
 
-TLD: .com
-Domínio: google
-Subdomínio: www
-Zonas DNS
+TLD = .com
+Domínio = google
+Subdomínio= www
+
+### Zonas DNS
 
 Uma zona DNS é um conjunto de registros de recursos que são armazenados em um único servidor DNS. As zonas DNS são organizadas em uma hierarquia, com cada zona sendo responsável por um nível específico de domínio.
 

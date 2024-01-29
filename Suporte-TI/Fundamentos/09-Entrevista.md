@@ -12,11 +12,12 @@ O primeiro passo para se destacar da multidão é ter um currículo e um perfil 
 
 Ao elaborar seu currículo, lembre-se de incluir as seguintes informações:
 
-Dados pessoais: nome, endereço, telefone, e-mail
+Dados pessoais: nome, telefone, e-mail, linkedin, github
 Formação educacional: cursos, instituições e datas
 Experiência profissional: cargos, empresas e datas
 Habilidades: habilidades técnicas e comportamentais
-Adapte seu currículo para cada vaga a que você se candidatar. Concentre-se nas habilidades e experiências mais relevantes para o cargo.
+
+**Adapte seu currículo para cada vaga a que você se candidatar. Concentre-se nas habilidades e experiências mais relevantes para o cargo.**
 
 ## Sua presença on-line
 
@@ -34,7 +35,7 @@ Peça a um amigo ou familiar para praticar simulações de entrevista com você.
 
 Durante a entrevista, é importante ouvir atentamente o que o entrevistador está dizendo. Faça contato visual, acene para indicar que está ouvindo e faça perguntas de controle.
 
-Criando seu discurso de impacto
+#### Criando seu discurso de impacto
 
 Um discurso de impacto é uma breve descrição de quem você é e o que você busca na carreira. Pratique seu discurso de impacto até que você o possa dizer com confiança.
 
@@ -54,7 +55,7 @@ Se você estiver pensando em uma solução para um problema, conte sua linha de 
 
 Para mostrar seu melhor na entrevista, prepare-se com antecedência e esteja presente durante a entrevista. Seja você mesmo e faça perguntas sobre a empresa.
 
-Dicas adicionais
+###### Dicas adicionais
 
 - Vista-se de maneira profissional
 - Chegue cedo para a entrevista

@@ -53,7 +53,16 @@ Outro conceito importante sobre o NAT e a camada de transporte é o redirecionam
 
 A IANA é responsável pela distribuição de endereços IP desde 1988. Desde então, a internet tem crescido em um ritmo incrível. Há muito tempo que se prevê o esgotamento dos 4,2 bilhões de endereços IPv4 possíveis e isso já quase ocorreu.
 
-Há algum tempo, a IANA é responsável pela atribuição de blocos de endereços aos cinco registros regionais de internet, ou RIRs. Os cinco RIRs são o AFRINIC, que atende o continente da África, o ARIN, que atende os Estados Unidos, o Canadá e partes do Caribe, o APNIC, responsável pela maior parte da Ásia, da Austrália, da Nova Zelândia e das Ilhas do Pacífico, o LACNIC, que abrange a América Central e a América do Sul, além de partes do Caribe não cobertas pelo ARIN. E, finalmente, o RIPE, que atende a Europa, a Rússia, o Oriente Médio e partes da Ásia Central. Esses cinco RIRs são responsáveis pela atribuição de blocos de endereços IP às organizações dentro de suas áreas geográficas , mas a maioria já se esgotou. A IANA atribuiu o último bloco de rede não alocado /8 a vários RIRs em 3 de fevereiro de 2011. Então, em abril de 2011, o APNIC ficou sem endereços. Depois foi o RIPE, em setembro de 2012. O LACNIC ficou sem endereços para atribuição em junho de 2014. E o ARIN passou por isso em setembro de 2015. Só o AFNIC tem IPs livres, mas devem se esgotar em 2018.
+Há algum tempo, a IANA é responsável pela atribuição de blocos de endereços aos cinco registros regionais de internet, ou RIRs. Os cinco RIRs são:
+
+- o AFRINIC, que atende o continente da África.
+- o ARIN, que atende os Estados Unidos, o Canadá e partes do Caribe.
+- o APNIC, responsável pela maior parte da Ásia, da Austrália, da Nova Zelândia e das Ilhas do Pacífico.
+- o LACNIC, que abrange a América Central e a América do Sul.
+- O ARIN, atende as partes do Caribe.
+- o RIPE, que atende a Europa, a Rússia, o Oriente Médio e partes da Ásia Central.
+
+Esses cinco RIRs são responsáveis pela atribuição de blocos de endereços IP às organizações dentro de suas áreas geográficas , mas a maioria já se esgotou. A IANA atribuiu o último bloco de rede não alocado /8 a vários RIRs em 3 de fevereiro de 2011. Então, em abril de 2011, o APNIC ficou sem endereços. Depois foi o RIPE, em setembro de 2012. O LACNIC ficou sem endereços para atribuição em junho de 2014. E o ARIN passou por isso em setembro de 2015. Só o AFNIC tem IPs livres, mas devem se esgotar em breve.
 
 O IPv6 deve resolver esses problemas. Mas a implementação do IPv6 em todo o mundo vai levar algum tempo. Por enquanto, continuamos crescendo e angariando mais pessoas e dispositivos para se conectar, mas sem endereços IP, é necessário encontrar uma solução alternativa.
 

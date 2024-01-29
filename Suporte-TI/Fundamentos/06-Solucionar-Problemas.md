@@ -2,11 +2,11 @@
 
 A resolução de problemas é uma habilidade essencial para qualquer profissional de TI. É a capacidade de diagnosticar e resolver problemas técnicos. Uma das habilidades mais difíceis de adquirir em uma função de TI não é conhecimento técnico, mas solução eficiente de problemas.
 
-## Pergunte
+## PERGUNTE
 
 A primeira coisa a fazer na resolução de problemas é fazer perguntas. Existem muitos fatores que podem causar um problema. Você deseja certificar-se de reunir todos os seus dados antes de começar a mexer com eles.
 
-Ao fazer perguntas, seja específico e objetivo. Evite perguntas abertas ou que possam ser respondidas com "sim" ou "não". Em vez disso, pergunte sobre as circunstâncias do problema, os sintomas e as ações que o usuário já tentou.
+Ao fazer perguntas, seja específico e objetivo. Evite perguntas abertas ou que possam ser respondidas com _sim_ ou _não_. Em vez disso, pergunte sobre as circunstâncias do problema, os sintomas e as ações que o usuário já tentou.
 
 Aqui estão algumas perguntas que você pode fazer:
 
@@ -22,7 +22,7 @@ Depois de reunir informações suficientes, você pode começar a isolar o probl
 
 Uma maneira de isolar o problema é testar diferentes variáveis. Por exemplo, se o problema está ocorrendo apenas em um computador específico, você pode tentar mover o computador para outra rede ou instalar uma versão diferente do software.
 
-Outra maneira de isolar o problema é usar uma abordagem de "divide e impera". Divida o problema em partes menores e mais gerenciáveis. Em seguida, concentre-se em resolver cada parte separadamente.
+Outra maneira de isolar o problema é usar uma abordagem de **divide e impera**. Divida o problema em partes menores e mais gerenciáveis. Em seguida, concentre-se em resolver cada parte separadamente.
 
 ## Seguindo migalhas
 
@@ -33,7 +33,8 @@ Os registros do sistema podem conter informações como:
 - Mensagens de erro
 - Eventos que ocorreram antes do problema
 - Alterações feitas no sistema
-- Leia os registros do sistema com atenção e procure por padrões ou eventos que possam estar relacionados ao problema.
+
+**Leia os registros do sistema com atenção e procure por padrões ou eventos que possam estar relacionados ao problema.**
 
 ## Identificando armadilhas
 
