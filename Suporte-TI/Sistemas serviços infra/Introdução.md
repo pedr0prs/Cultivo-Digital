@@ -1,0 +1,139 @@
+# O que é administração de sistemas
+
+A infraestrutura de TI engloba o software, o hardware, as redes e os serviços necessários para que uma organização opera em um ambiente de TI corporativo. Sem a infraestrutura de TI, os funcionários não conseguiriam trabalhar e toda a empresa desmoronaria antes mesmo de iniciar suas atividades. Então, as organizações contam com a ajuda do administrador de sistemas para gerenciar a infraestrutura de TI da empresa.
+
+Os administradores de sistema, também chamados de ADMs, são os heróis desconhecidos da organização. Eles trabalham nos bastidores para garantir que a infraestrutura de TI esteja sempre funcionando, lutando constantemente para evitar a ocorrência de desastres de TI. Os administradores de sistemas têm muitas responsabilidades diferentes. Qualquer empresa que use TI precisa de um administrador de sistema ou de alguém com essas responsabilidades. A função de um administrador de sistema pode variar dependendo do tamanho da organização. Quanto mais a organização cresce, mais administradores de sistemas são necessários.
+
+Suas responsabilidades podem ser separadas em diferentes funções com nomes diferentes, como administradores de redes ou administradores de banco de dados. Ao passar para as grandes organizações, você também precisará aumentar seu conhecimento sobre administração de sistemas. Você precisará aprender habilidades para automatizar fluxos de trabalho e gerenciar configurações automaticamente.
+
+## Revisão de servidores
+
+Basicamente, o administrador de sistemas é o responsável pelos serviços de TI de sua empresa. Os funcionários precisam desses serviços de TI para poder trabalhar. Dentre eles está o serviço de e-mails, armazenamento de arquivos, funcionamento de websites etc. Os serviços têm que ser armazenados em algum lugar, eles não aparecem do nada. Alguma ideia de onde eles estão armazenados? Se você respondeu "servidores",  você está certo.
+
+Os administradores de sistemas fazem a manutenção de todos os servidores da empresa. Se você trabalhar como especialista de suporte e tiver responsabilidades de administrador de sistemas, você pode ter que realizar essas tarefas. Basicamente, o servidor é um **software ou uma máquina que presta serviços para outros softwares ou máquinas.** Por exemplo, _um servidor web armazena e apresenta conteúdo a clientes pela internet. Você pode acessar o servidor web por meio de um nome de domínio, como google.com. O servidor de e-mail presta serviço de e-mail para outras máquinas. O servidor SSH presta serviços SSH para outras máquinas e assim por diante._
+
+Chamamos de clientes as máquinas que usam os serviços prestados por um servido. Os clientes solicitam os serviços do servidor e, por sua vez, os servidores respondem com os serviços. Um servidor pode prestar serviços para vários clientes de uma só vez e um cliente pode usar vários servidores. Qualquer computador pode ser um servidor. Posso criar um servidor web no meu computador de casa para servir meu site pessoal na internet. Mas eu não quero fazer isso porque eu **teria que deixar meu computador ligado o tempo todo para que meu site ficasse disponível o tempo todo.**
+
+Os servidores padrão da indústria estão em funcionamento 24 horas por dia e não usam hardware amador como o do meu laptop. Eles usam hardwares poderosos e confiáveis. O hardware dos servidores pode ter várias formas diferentes. Podem ser torres verticais muito parecidas com os desktops que já vimos. Essas torres podem ser colocadas em um armário ou podem ficar sobre uma mesa. Mas e se você precisasse de 10 servidores? As torres tomariam muito espaço. Em vez disso, você poderia usar servidores em rack, que são colocados na horizontal e são montados em um rack com 2,3 metros de largura. Se você precisasse de ainda mais espaço, você poderia usar servidores blade que são ainda mais finos que os em rack. Existem outros tipos de modelos de servidores, mas estes são os mais comuns. Você também pode personalizar o hardware dos seus servidores, dependendo dos serviços.
+
+Por exemplo, em um servidor de arquivos, é melhor ter mais recursos de armazenamento para você poder guardar mais arquivos. E como ocorre a conexão com os servidores? Em uma pequena organização de TI, você pode ter que lidar com vários servidores. Não seria prático ter monitor, teclado e mouse para cada um desses servidores, não é? Felizmente, podemos nos conectar remotamente com eles por meio de SSH. Mesmo assim, é sempre bom ter um **monitor e um teclado** por perto. Às vezes, quando você estiver trabalhando, sua pode apresentar problemas e o SSH não será uma opção.
+
+Uma prática comum na área é usar algo conhecido como switch KVM. KVM vem de teclado, vídeo e mouse em inglês. O switch KVM parece um hub ao qual você pode conectar vários computadores para controlá-los usando um teclado, um mouse e um monitor.
+
+### A nuvem
+
+A computação em nuvem é o conceito de poder acessar seus dados, usar aplicativos, armazenar arquivos etc. a partir qualquer lugar do mundo, desde que você tenha uma conexão com a internet. Mas a nuvem não é nada mágico. Trata-se de uma rede de servidores que armazenam e processam nossos dados. Um data center é uma instalação que armazena centenas, talvez milhares de servidores. Empresas com grandes quantidades de dados precisam manter suas informações armazenadas em lugares como data centers. Grandes empresas como Google e Facebook possuem seus próprios data centers porque elas têm bilhões de usuários que precisam acessar os dados a todos momento. Empresas menores também podem fazê-lo, mas elas geralmente alugam parte de um data center para suas necessidades.
+
+Quando você usa o serviço de nuvem, esses dados são normalmente armazenados em um ou vários data centers, em qualquer lugar grande o suficiente para conter as informações de milhões, talvez bilhões de usuários. Fica fácil entender por que a nuvem se tornou uma forma popular de computação nos últimos anos. Agora, em vez de manter terabytes de armazenamento em seu laptop, você pode enviar esses dados para um serviço de armazenamento de arquivos como o **Dropbox**, que armazena esses dados em um local gerenciado, como um data center.
+
+O mesmo vale para sua organização. Em vez de gerenciar seus próprios servidores, você pode usar serviços de internet para gerenciar tudo para você: ***atualizações de segurança, hardware de servidor, atualizações de software de rotina e muito mais.** Mas cada uma dessas opções traz suas desvantagens. **O primeiro é o custo. Quando você compra um servidor, você paga adiantado pelo hardware.** Dessa forma, você pode configurar seus serviços, como armazenamento de arquivos, a um custo muito pequeno, pois é você quem o gerencia. Quando você usa serviços de internet como o Dropbox que oferecem armazenamento de arquivos on-line, o custo inicial pode ser menor. Mas em longo prazo, os custos podem aumentar, pois você paga uma quantia fixa todo mês. A segunda desvantagem é **a dependência.** Seus dados estão vinculados a essas plataformas. Se houver um problema com o serviço, outra pessoa, que não é você, deve colocar tudo em funcionamento novamente. Sua empresa pode sofrer uma perda preciosa de produtividade e de dados.
+
+Independentemente do método que você escolher, lembre-se de que você continua responsável pelos problemas que surgirem quando houver imprevistos. Se o Dropbox estiver enfrentando problemas com dados importantes dos seus usuários, ainda cabe a você fazê-lo funcionar novamente, independentemente de qualquer coisa. Para evitar o surgimento de uma situação como essa, você pode considerar fazer backup de dados críticos na nuvem e em um disco físico. Dessa forma, se um sistema cair, você tem outra forma de resolver o problema. Opte você por manter o serviço físico ou usar os serviços da nuvem, é esse tipo de coisa que você precisa considerar quando estiver prestando serviços para sua empresa.
+
+## Tarefas de administração de sistemas
+
+### Políticas Organizacionais
+
+Em uma pequena empresa, é responsabilidade do administrador de sistemas escolher as políticas de uso de computadores. Em empresas maiores com centenas de funcionários ou mais, essa responsabilidade costuma ser do diretor de segurança. Mas em empresas menores, ou "shops" menores, como dizemos, o administrador de sistemas tem que pensar cuidadosamente na segurança dos computadores e se deve ou não permitir o acesso a certos usuários.
+
+Existem algumas dúvidas comuns sobre políticas que surgem na maioria das configurações de TI e que você deve saber. Os usuários devem ter permissão para instalar software? Provavelmente não. Você pode correr o risco de um usuário instalar acidentalmente softwares mal-intencionados. Os usuários devem ter senhas complexas com certos requisitos? É uma boa prática criar senhas complexas que tenham símbolos, números aleatórios e letras. Uma boa recomendação para senhas é ter no mínimo 8 caracteres, dificultando a quebra por parte de outras pessoas. Deve-se permitir a exibição sites não relacionados ao trabalho, como Facebook? Essa é uma opção pessoal.
+
+Algumas organizações preferem que seus funcionários usem o computador e a rede apenas para trabalho, mas muitas permitem outros usos para que seus funcionários possam promover seus negócios ou produtos em plataformas de redes sociais, ficar atualizados sobre os acontecimentos e assim por diante. Essa será uma política que você e os líderes da sua organização devem criar juntos. Se você disponibilizar telefones corporativos para os funcionários, deve-se definir uma senha para o dispositivo? Com certeza. As pessoas perdem seus celulares o tempo todo. Se o aparelho for perdido ou roubado, ele deve estar protegido por senha, no mínimo, para que outra pessoa não consiga ver os e-mails da empresa.
+
+Estas são apenas algumas das dúvidas que podem surgir sobre as políticas. Sempre que as políticas forem criadas, ela devem ser documentadas em algum lugar. É fundamental manter uma documentação sólida. Se você estiver gerenciando sistemas, você será responsável por documentar as políticas da sua empresa, os procedimentos de rotina e muito mais.
+
+Você pode armazenar esta documentação em um site interno tipo wiki, em um servidor de arquivos, em um software, onde você quiser. O objetivo é disponibilizar a documentação das políticas para seus funcionários para que eles saibam dessas políticas.
+
+### Serviços de infraestrutura de TI
+
+Você precisa ter acesso às redes? Esse é um serviço que precisa ser gerenciado. E quanto à conexão segura a sites e a outros computadores? Isso mesmo! Também é um serviço que precisa ser gerenciado. E gerenciar serviços não é só configurá-los. Eles tem que ser atualizados rotineiramente, receber patches de segurança de compatibilidade com os computadores de sua organização.
+
+### Alocação de usuários e hardware
+
+Outra responsabilidade dos administradores é o gerenciamento de usuários e de hardware. Os administradores de sistemas têm que criar novos usuários e lhes dar acesso aos recursos da empresa. Por outro lado, eles também precisam remover usuários de uma infraestrutura de TI depois que estes são desligados. Eles não têm que se preocupar apenas com contas de usuários. Os administradores de sistemas também são responsáveis pelas máquinas dos usuários. Eles devem viabilizar o login dos usuários e entregar os computadores com os softwares necessários para o trabalho dos usuários.
+
+Os administradores do sistema também precisam garantir que o hardware disponibilizado ou configurado para os usuários seja padronizado de alguma forma. Essa prática é o padrão da área quando se lida com vários ambientes de usuário. Os administradores de sistemas precisam não só padronizar as configurações de uma máquina, mas também têm que descobrir o ciclo de vida do hardware dessa máquina.
+
+Os administradores de sistema não querem um computador de dez anos na empresa. Ou talvez queiram. Até sobre isso é preciso decidir. Existem quatro etapas principais no ciclo de vida do hardware.
+
+- **Aquisição.** Este é o estágio em que o hardware é comprado ou reutilizado por qualquer funcionário.
+- **Implantação.** É aqui que o hardware é configurado para que o funcionário possa fazer seu trabalho.
+- **Manutenção.** Esta é a fase em que o software é atualizado e problemas de hardware são corrigidos, se for o caso.
+- **Retirada de uso.** Nesta etapa final, hardware torna-se inutilizável ou desnecessário e precisa ser removido da frota de forma adequada.
+
+Em uma pequena empresa, o ciclo de vida típico do hardware pode funcionar assim: Primeiro, quando um novo funcionário é contratado, o RH pede para providenciar um computador para o novato e configurar sua conta de usuário. Em seguida, você destina um computador do seu estoque ou pede um novo, se for o caso. Quando você destina hardware a alguém, pode ser necessário colocar uma etiqueta no item para acompanhamento do estoque da organização. Em seguida, você gera a imagem do computador usando um método simplificado que discutimos em nosso último curso: "Sistemas operacionais e você". Depois, você dá um nome ao computador usando um nome de host padronizado. Isso ajuda no gerenciamento das máquinas.
+Em relação ao nome, falamos sobre o uso de um formato como `nomedeusuário-local`, mas outros modelos podem ser usados.
+Depois, você instala o software que o usuário precisa na máquina dele. Então, o novo funcionário inicia suas atividades e você simplifica o processo de configuração dando instruções sobre como entrar na nova máquina, receber e-mails etc. Eventualmente, se o computador tiver problemas de hardware ou defeitos, você investiga o problema e pensa nos próximos passos. Se estiver ficando muito antigo, você terá que descobrir os locais de reciclagem e onde obter novos hardwares. Por fim, se um usuário for desligado da empresa, você também terá que remover o acesso dele dos recursos de TI e limpar a máquina, assim você poderá realocá-lo para outra pessoa.
+
+**Geração de imagens.** A instalação de software e definição de configurações em um novo computador pode levar bastante tempo. Em uma pequena empresa, não se faz isso com muita frequência e não faz muita diferença, mas em uma empresa maior, processos demorados devem ser evitados. Você terá que aprender formas automatizadas de configurar novas máquinas e gastar poucos minutos com isso, não horas.
+
+### Manutenção de rotina
+
+Quando você gerencia máquinas em uma empresa, você não as configura e as deixa para lá. Você tem que fazer atualizações e manutenções para que elas rodem os softwares mais seguros e recentes. Quando você tem que fazer isso em uma frota de máquinas, não se fazem as atualizações assim que elas chegam. Seria muito demorado. Em vez disso, para atualizar e gerenciar hardware com eficiência, fazemos o que chamamos de atualização em lote. Isso significa que, uma vez a cada mês, você atualiza todos os seus servidores com os patches de segurança mais recentes. Você precisar encontrar tempo para retirar os serviços do ar, executar a atualização e verificar se a nova atualização funciona com o serviço. Você também não precisa executar uma atualização de software toda vez que houver uma disponível. Mas é uma prática comum fazer atualizações em lote para segurança e atualizações de sistema muito importantes. Priorizar sua segurança é sempre uma boa ideia.
+
+### Fornecedores
+
+Os administradores de sistema em pequenas empresas não lidam só com o uso de computadores, eles também têm que lidar com impressoras e telefones. Se seus funcionários tiverem celulares ou telefones fixos, suas linhas telefônicas precisarão ser configuradas. As impressoras ainda são usadas nas empresas e elas têm que ser configuradas para que os funcionários as usem. Os administradores de sistemas podem ser responsáveis pela verificação do funcionamento das impressoras caso sejam alugadas. São eles que chamam os técnicos para fazerem o reparo. E se o fax da empresa não estiver funcionando? Se você não souber o que é um fax, isso não me surpreende. O serviço vem desaparecendo desde a invenção do e-mail. Os administradores de sistemas podem ter que se encarregar delas também. Aparelhos videoconferência? Sim. Provavelmente precisam gerenciá-los também. Em um ambiente corporativo, os administradores de sistemas têm que adquirir o hardware de uma forma ou de outra. As parcerias com fornecedores ou outras empresas para comprar hardware é uma prática comum.
+
+Criar contas corporativas com fornecedores como Hewlett Packard, Dell, Apple etc. geralmente traz benefícios, já que essas empresas podem oferecer descontos para outras empresas. Estas são as coisas em que os administradores precisam pensar. Não há escalabilidade em sair comprando dispositivos na Amazon, mas, se essa for a decisão, eles também podem fazê-lo. Os administradores de sistemas devem ponderar as opções antes de comprar qualquer coisa. Eles precisam pensar nos fornecedores de hardware. Então, se determinado modelo de laptop não for mais usado, eles precisam pensar em um substituto adequado que funcione para a empresa. O preço também é algo a ser considerado. É provável que precisem de aprovação formal da gerência ou de outro líder para estabelecer este relacionamento com os fornecedores. Os administradores de sistemas precisam considerar muito mais que as implementações técnicas. São vários fatores.
+
+### Gerenciamento e resolução de problemas
+
+Os administradores de sistemas também precisam solucionar problemas e priorizar em uma escala maior. Se um servidor parar de prestar serviços a mil usuários e uma pessoa tiver um problema com uma impressora, qual problema precisará de atenção primeiro? Qualquer que seja o cenário, há duas habilidades essenciais para se chegar a uma boa solução para os usuários.
+
+A primeira é **troubleshooting: fazer perguntas**, isolar o problema, seguir as pequenas pistas e ler os logs são as melhores maneiras de descobrir o problema. Você pode ter que ler os logs de várias máquinas ou até mesmo de toda a rede.
+A segunda habilidade importante de que falamos é o **atendimento ao cliente: demostrar empatia,** usar o tom de voz certo e lidar bem com situações difíceis. Essas habilidades são essenciais para todas as funções de TI.
+
+Em algumas empresas, os administradores de sistemas precisam estar disponíveis 24 horas por dia. Se um servidor ou rede parar no meio da noite, alguém tem que estar disponível para consertar. Não se preocupe: o administrador de sistema não precisa estar acordado e disponível 24 horas por dia. Monitoram-se os serviços e eles são chamados em caso de problemas. Um padrão comum da área é usar algum tipo de **sistema de chamados**, tipo o JIRA. É lá que os usuários podem pedir ajuda para um problema e, depois, você pode acompanhar seu trabalho de torubleshooting por meio desse sistema de chamados. Assim você consegue organizar e priorizar problemas e documentar as etapas do troubleshooting.
+
+### Em caso de incêndio, quebre o vidro
+
+Vamos entrar numa parte sombria e falar sobre desastres. Goste você ou não, alguma coisa vai dar errado em algum momento, não importa o quanto você tenha planejado. Isso acontece em empresas pequenas e grandes. É um problema que afeta todos. Você não pode dar conta de tudo, mas tem que estar preparado para consertar o problema. Como? É muito importante ter certeza de que há backup constante dos dados da sua empresa em algum lugar. De preferência, longe do local atual. E se um incêndio atingir o edifício? E se os backups forem queimados com ele? Você não teria nem um local para trabalhar, que dirá conseguir recuperar seus dados e colocar tudo em funcionamento novamente.
+
+## Aplicando alterações
+
+### Com grandes poderes vêm grandes responsabilidades
+
+Quando você tem direitos de administrador para algo, seja para uma máquina, seja para uma frota de 100 máquinas, ou para um serviço de nuvem com milhares de usuários, você precisa ter cuidado ao usar esses direitos. O mais importante é evitar usar direitos de administrador para tarefas que não os exigem.
+
+Por exemplo, você não deve navegar na web com o usuário administrador. Tente passar menos tempo possível em uma sessão de administrador. Faça o que precisar fazer e, quando terminar, encerre a sessão. Nos sistemas Linux, geralmente usamos o comando `sudo` para executar comandos como administrador.
+
+Ser administrador de um servidor de e-mail não significa que você possa ler os e-mails de outra pessoa. Não é porque você tem essa capacidade que você deve fazer isso. Mesmo se você tiver um motivo corporativo para acessar determinada informação, siga à risca o processo ou as políticas apropriadas para acessá-la. Você não deve usar seus direitos de administrador para infringir nenhuma regra. **Pensar antes de digitar.**
+
+Quando você usa seus direitos de administrador, suas ações podem ter consequências muito maiores do que se você estivesse em um usuário normal. **Reflita bem sobre o que você está fazendo e não se apresse.** Erros como excluir os arquivos errados, reiniciar a máquina errada ou encerrar a conexão que você está usando para gerenciar uma máquina remota podem acontecer se você não tiver cuidado. Você pode se preparar escrevendo as etapas do processo antes de executá-las. Isso ajuda de duas maneiras:
+
+Permite o planejamento com antecedência e serve como documentação do que você fez. Documentar o que você faz é essencial ao usar os direitos de administrador. A anotação dos comandos que você executou permite que você repita o processo exato no futuro e conserte problemas que possam surgir depois. No Linux, existe um comando chamado `script`. Podemos usá-lo para registrar um grupo de comandos à medida que são executados, juntamente com seus resultados. No PowerShell do Windows, há um comando equivalente chamado `Start-Transcript`. Essas ferramentas são úteis para automatizar procedimentos. Da mesma forma, podemos usar a ferramenta `recordMyDesktop` para registrar a interação com o aplicativo gráfico.
+
+O último do princípio do comando é `sudo` é: **quanto maior o poder, maior a responsabilidade. É algo batido, mas o assunto é sério.** Quanto mais coisas você puder fazer com seus direitos de administrador, mais problemas você pode causar. Dá para minimizar o impacto de alguns erros, e alguns erros são inevitáveis. Basta reverter rapidamente suas alterações se algo der errado. É só fazer uma cópia do estado anterior antes de alterá-lo, colocar suas configurações em um sistema que permita gravar versões ou documentando quais etapas você precisa seguir para voltar ao estado anterior. A reversão para o estado anterior é chamada de _rollback._
+
+Alguns comandos são mais fáceis de reverter do que outros. Por exemplo, se você alterar uma configuração de _true_ para _false_, o rollback é configurá-la novamente para _true_. Mas se você estiver excluindo um arquivo de forma que ele não tenha cópia de backup, o rollback pode ser difícil ou impossível. **Então, antes de fazer uma alteração, separe um momento para pensar em como fará essa mudança e tenha a certeza de possuir cópias de informações que possam se perder.**
+
+### Nunca teste em ambiente de produção
+
+No contexto da infraestrutura, chamamos de **produção as partes da infraestrutura onde certos serviços executados e atendem ao usuários.**
+
+O ambiente de teste é geralmente uma máquina virtual com a mesma configuração do ambiente de produção, mas que não está atendendo nenhum usuário do serviço. Dessa forma, se houver problemas ao implantar a alteração, você poderá corrigi-los sem que o usuário veja. Se você for responsável por um serviço importante que precisa funcionar durante a mudança de uma configuração, recomendamos que você tenha uma máquina secundária ou adicional.
+
+Esta máquina será sua máquina de produção, mas não receberá nenhum tráfego de usuários até que você permita. Nesse caso, depois de testar suas alterações no ambiente de teste e elas estiverem prontas para implantação na produção, aplique as alterações primeiro na máquina secundária. Depois que as alterações tiverem sido aplicadas, passe a máquina secundária para máquina primária e, em seguida, aplique as alterações na outra máquina.
+
+Para serviços ainda maiores, quando você tiver muitos servidores prestando serviço, talvez seja bom usar uma cobaia. Assim como se usam cobaias para testar reações a diversos medicamentos no âmbito de pesquisas, você pode usar um pequeno grupo de servidores para detectar possíveis problemas nas alterações mais relevantes que você deseja fazer no sistema. Depois de verificar o funcionamento correto nessas máquinas, você passa a implantar a alteração no restante da frota. Dessa forma, se houver algum problema com as alterações, apenas um grupo menor de usuários ficam expostos  e você pode revertê-lo antes de atingir todos os usuários.
+
+Sempre use uma instância de teste primeiro e implante a mudança na produção só depois de verificar se ela funciona.
+
+### Avaliando o risco
+
+Podemos avaliar o risco envolvido considerando a importância dos serviços para a infraestrutura e quantos usuários seriam afetados se o serviço ficasse fora do ar. Certos serviços são de relevância máxima. Se o sistema centralizado de autenticação estiver fora do ar, ninguém conseguirá fazer login. Se o sistema de faturamento estiver inacessível, a empresa não conseguirá receber pagamentos. Se seus backups forem perdidos, você não terá proteção em caso de desastre. Mas nem todos os serviços têm toda essa importância. Um site informativo não é tão importante quanto um site de comércio eletrônico. Um sistema interno de chamados não é tão importante quanto um aplicativo de suporte externo ao cliente. A infraestrutura necessária para uma nova instalação não é tão importante quanto aquela usada para fazer login nas máquinas existentes.
+
+Em geral, quanto mais usuários seu serviço atinge, mais você terá que evitar que ele seja afetado. Quanto mais importante for o serviço para as operações da sua empresa, mais você terá que trabalhar para manter o serviço funcionando. É possível ter um contrato com o usuário sobre a expectativa da disponibilidade de determinado serviço.
+
+Por exemplo, em muitas empresas, a manutenção com interrupções é realizada no fim de semana. Nestes casos, já está acordado que o servidor de arquivos ficará inativo no sábado enquanto você faz alterações. Você também pode usar esses critérios para estabelecer prioridades para corrigir um problema. Se o problema estiver impedindo as pessoas de trabalhar, encontrar uma solução deve ter prioridade mais alta  do que resolver um pequeno aborrecimento que pode ser contornado.
+
+### Aplicando correções do jeito certo
+
+Digamos que você queria resolver um problema que você encontrou ou que alguém relatou a você. Antes de começar a corrigi-lo, verifique se você consegue **recriar o erro para testar sua solução e ver se o problema desapareceu após a correção. É o que chamamos de caso simulado.** Significa que você está criando um roteiro para identificar os passos que levaram o usuário ao resultado inesperado, como ver uma página de erro.
+
+Ao criar um caso simulado, há três perguntas que você precisa responder. **Quais passos você seguiu para chegar a este ponto? Qual é o resultado negativo ou inesperado? E qual é o resultado esperado?**
+
+Depois de ter os passos necessários para recriar o resultado inesperado e saber qual deve ser o resultado positivo, você pode tentar corrigir o problema subjacente. Lembre-se: sempre faça isso na instância de teste, nunca em produção. Não deixe de documentar todos os passos e descobertas. **Essa documentação pode ser valiosa se você tiver que lidar com problemas semelhantes novamente.** Você ficará agrecido consigo mesmo.
+
+Depois de aplicar a correção, refaça as mesmas etapas que o levaram ao resultado negativo. Se a correção tiver funcionado, o resultado positivo deve ocorrer.
