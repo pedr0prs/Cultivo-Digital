@@ -54,7 +54,7 @@ Outra responsabilidade dos administradores é o gerenciamento de usuários e de 
 
 Os administradores do sistema também precisam garantir que o hardware disponibilizado ou configurado para os usuários seja padronizado de alguma forma. Essa prática é o padrão da área quando se lida com vários ambientes de usuário. Os administradores de sistemas precisam não só padronizar as configurações de uma máquina, mas também têm que descobrir o ciclo de vida do hardware dessa máquina.
 
-Os administradores de sistema não querem um computador de dez anos na empresa. Ou talvez queiram. Até sobre isso é preciso decidir. Existem quatro etapas principais no ciclo de vida do hardware.
+Os administradores de sistema não querem um computador de dez anos na empresa. Ou talvez queiram. Até sobre isso é preciso decidir. Existem quatro etapas principais no **ciclo de vida do hardware.**
 
 - **Aquisição.** Este é o estágio em que o hardware é comprado ou reutilizado por qualquer funcionário.
 - **Implantação.** É aqui que o hardware é configurado para que o funcionário possa fazer seu trabalho.
