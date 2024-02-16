@@ -4,7 +4,7 @@ As empresas têm muitos motivos ter segurança em suas redes. E, para tanto, ela
 
 As organizações geralmente têm informações proprietárias que precisam permanecer seguras. Serviços de rede destinados a acesso exclusivo para funcionários e outras coisas. Uma das maneiras mais fáceis de manter as redes seguras é usar várias tecnologias de segurança de forma que apenas dispositivos fisicamente conectados à rede local possam acessar esses recursos. Mas nem sempre os funcionários estão no escritório. Eles podem estar trabalhando em casa ou em uma viagem de negócios, e ainda assim podem precisar acessar esses recursos para fazer seu trabalho. É aí que entram as VPNs.
 
-As redes privadas virtuais, ou VPNs, são uma tecnologia que permite estender uma rede privada ou local para um host que pode não operar na mesma rede local. As VPNs têm diversas variações e fazem muitas coisas diferentes. 
+As redes privadas virtuais, ou VPNs, são uma tecnologia que permite estender uma rede privada ou local para um host que pode não operar na mesma rede local. As VPNs têm diversas variações e fazem muitas coisas diferentes.
 
 O exemplo mais comum de uso das VPNs é para que funcionários acessem a rede de suas empresas quando não estão no escritório. As VPNs são um protocolo de tunelamento, o que significa que elas viabilizam acesso a algo que não está disponível localmente. Ao estabelecer uma conexão VPN, você também pode dizer que foi feito um túnel VPN.
 

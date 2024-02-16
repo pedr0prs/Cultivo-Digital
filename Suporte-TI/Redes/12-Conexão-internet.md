@@ -47,7 +47,7 @@ Mas certas implementações de conexões de fibra podem viajar dezenas e dezenas
 
 FTTX significa "fibra para o X", em que X pode ser várias coisas. O primeiro termo que você pode ouvir é FTTN, que significa "fibra para o bairro".
 
-Isso significa que as tecnologias de fibra são usadas para fornecer dados para um único gabinete físico que atende certa quantidade da pessoas. A partir deste gabinete, cabos de par trançado de cobre ou coaxiais podem ser usados para os trechos finais. 
+Isso significa que as tecnologias de fibra são usadas para fornecer dados para um único gabinete físico que atende certa quantidade da pessoas. A partir deste gabinete, cabos de par trançado de cobre ou coaxiais podem ser usados para os trechos finais.
 
 A próxima versão que você pode encontrar é o FTTB. Estamos falando de "fibra para o prédio", "fibra para a empresa" ou até mesmo "fibra para o porão", já que geralmente é pelo porão que os cabos entram nos edifícios. A FTTB é uma configuração em que as tecnologias de fibra são usadas para entregar dados a um prédio individual.
 
